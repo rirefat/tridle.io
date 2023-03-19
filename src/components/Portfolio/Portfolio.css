@@ -25,7 +25,6 @@
 .portfolio-section .sample-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
 }
 .portfolio-section .sample-container .right-container {
   display: grid;

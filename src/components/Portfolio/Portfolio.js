@@ -1,11 +1,13 @@
 import React from 'react';
 import usePortfolio from '../../hooks/usePortfolio';
+import useTopProject from '../../hooks/useTopProject';
 import PortfolioCard from '../PortfolioCard/PortfolioCard';
+import TopProject from '../TopProject/TopProject';
 import './Portfolio.css';
 
 const Portfolio = () => {
     const [portfolio, setPortfolio]=usePortfolio();
-    console.log(portfolio)
+    const [project, setProject]=useTopProject();
 
     return (
         <div  className='portfolio-section'>
@@ -14,7 +16,9 @@ const Portfolio = () => {
 
             <div className="sample-container">
                 <div className="left-container">
-                    left
+                    {
+                        project.map(data=><TopProject key={data.id} data={data}></TopProject>)
+                    }
                 </div>
                 <div className="right-container">
                     {
