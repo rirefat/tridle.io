@@ -32,4 +32,16 @@ $border: #EEEEEC;
         width: 90%;
         margin: 1rem 0;
     }
+
+    .sample-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+        .right-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+    }
 }
