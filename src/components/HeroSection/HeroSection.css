@@ -91,4 +91,84 @@
     height: 3.5rem !important;
     font-size: 1rem !important;
   }
+}
+@media screen and (max-width: 960px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  .hero-section p {
+    margin: 2.2rem 8rem !important;
+    line-height: 1.8rem !important;
+  }
+  .hero-section button {
+    padding: 15px 30px;
+    width: 15rem !important;
+    height: 3.5rem !important;
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 850px) {
+  .hero-section h1 {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 805px) {
+  .hero-section h1 {
+    font-size: 2.6rem;
+  }
+  .hero-section p {
+    margin: 2.2rem 5rem !important;
+    line-height: 1.8rem !important;
+  }
+  .hero-section button {
+    padding: 15px 30px;
+    width: 14rem !important;
+    height: 3.5rem !important;
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (max-width: 765px) {
+  .hero-section h1 {
+    font-size: 2.4rem;
+  }
+  .hero-section p {
+    margin: 2rem 5rem !important;
+    line-height: 1.8rem !important;
+  }
+  .hero-section button {
+    padding: 15px 30px;
+    width: 14rem !important;
+    height: 3.5rem !important;
+    font-size: 0.85rem !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p {
+    margin: 2rem 5rem !important;
+    line-height: 1.8rem !important;
+    font-size: 1.3rem !important;
+  }
+  .hero-section button {
+    padding: 15px 30px;
+    width: 14rem !important;
+    height: 3.5rem !important;
+    font-size: 0.85rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-section p {
+    display: none;
+  }
+  .hero-section .call-to-action {
+    margin-top: 2.5rem;
+  }
+  .hero-section .call-to-action button {
+    padding: 15px 30px;
+    width: 12rem !important;
+    height: 3.5rem !important;
+    font-size: 0.7rem !important;
+  }
 }/*# sourceMappingURL=HeroSection.css.map */
