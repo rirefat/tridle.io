@@ -70,6 +70,9 @@ $border: #EEEEEC;
 
             &:hover{
                 transform: translateY(-5px);
+                border: 1px solid rgba(208, 213, 221, 0.15);
+                background-color: #1C1D18;
+                color: $text-primary;
             }
         }
     }
