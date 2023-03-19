@@ -1,5 +1,6 @@
 .hero-section {
-  margin: 6rem 0;
+  padding: 6rem;
+  background-color: #000;
 }
 .hero-section h1 {
   color: #EEEEEC;

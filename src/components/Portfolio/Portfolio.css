@@ -1,0 +1,24 @@
+.portfolio-section {
+  background-color: rgb(28, 29, 24);
+  padding: 6rem;
+}
+.portfolio-section h3 {
+  color: #BEE329;
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: capitalize;
+}
+.portfolio-section p {
+  color: #EEEEEC;
+  width: 1248px;
+  height: 54px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.9rem;
+  width: 90%;
+  margin: 1rem 0;
+}/*# sourceMappingURL=Portfolio.css.map */
