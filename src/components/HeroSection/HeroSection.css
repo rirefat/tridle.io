@@ -1,10 +1,10 @@
 .hero-section {
-  margin: 96px 0;
+  margin: 6rem 0;
 }
 .hero-section h1 {
   color: #EEEEEC;
   font-family: "Satoshi", sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 900;
   line-height: 120%;
   letter-spacing: 0em;
@@ -17,17 +17,18 @@
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.3rem;
   text-align: center;
   color: rgb(248, 252, 234);
-  margin: 64px 140px;
+  margin: 4rem 8.75rem;
 }
 .hero-section .call-to-action {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 0.8rem;
   flex-wrap: wrap;
 }
 .hero-section .call-to-action button {
@@ -60,4 +61,19 @@
   border: 1px solid rgba(208, 213, 221, 0.15);
   background-color: #1C1D18;
   color: #EEEEEC;
+}
+
+@media screen and (max-width: 1285px) {
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  .hero-section button {
+    padding: 15px 35px;
+    width: 16.5rem;
+    height: 4rem;
+    font-size: 1.1rem;
+  }
 }/*# sourceMappingURL=HeroSection.css.map */
