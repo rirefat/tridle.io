@@ -1,0 +1,54 @@
+.hero-section {
+  margin: 96px 0;
+}
+.hero-section h1 {
+  color: #EEEEEC;
+  font-family: "Satoshi", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero-section h1 .highlighted {
+  color: #BEE329;
+}
+.hero-section p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: rgb(248, 252, 234);
+  margin: 64px 140px;
+}
+.hero-section .call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.hero-section .call-to-action button {
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  width: 287px;
+  height: 67px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hero-section .call-to-action button:nth-child(1) {
+  color: #BEE329;
+  background-color: rgb(28, 29, 24);
+}
+.hero-section .call-to-action button:nth-child(2) {
+  color: #000;
+  background-color: #BEE329;
+}
+.hero-section .call-to-action button:hover {
+  transform: translateY(-5px);
+}/*# sourceMappingURL=HeroSection.css.map */

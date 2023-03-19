@@ -1,0 +1,70 @@
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$border: #EEEEEC;
+
+.hero-section {
+    margin: 96px 0;
+
+    h1 {
+        color: $text-primary;
+        font-family: $font-family-primary;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0em;
+        text-align: center;
+
+        .highlighted {
+            color: $text-highlighted;
+        }
+    }
+
+    p {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: $text-secondary;
+        margin: 64px 140px;
+    }
+
+    .call-to-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        button {
+            padding: 20px 40px;
+            text-align: center;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            width: 287px;
+            height: 67px;
+            box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:nth-child(1){
+                color: $text-highlighted;
+                background-color: $bg-secondary;
+            }
+            &:nth-child(2){
+                color: #000;
+                background-color: $text-highlighted;
+            }
+
+            &:hover{
+                transform: translateY(-5px);
+            }
+        }
+    }
+}
