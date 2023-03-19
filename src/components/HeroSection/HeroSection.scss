@@ -40,6 +40,7 @@ $border: #EEEEEC;
         justify-content: center;
         align-items: center;
         gap: 8px;
+        flex-wrap: wrap;
 
         button {
             padding: 20px 40px;
@@ -50,8 +51,13 @@ $border: #EEEEEC;
             height: 67px;
             box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
             font-size: 1.2rem;
+            font-weight: 600;
             cursor: pointer;
             transition: 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
 
             &:nth-child(1){
                 color: $text-highlighted;
