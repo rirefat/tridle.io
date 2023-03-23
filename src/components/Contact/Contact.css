@@ -9,7 +9,7 @@
   padding: 4rem 20rem;
 }
 .contact .contact-container h3 {
-  font-family: "Satoshi";
+  font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -23,6 +23,7 @@
   font-weight: 300 !important;
   font-size: 20px;
   line-height: 27px;
+  color: #EEEEEC;
   color: #EEEEEC;
 }
 .contact .contact-container .contact-form {
@@ -61,4 +62,49 @@
 }
 .contact .contact-container .contact-form .submit-btn:hover {
   background-color: #d7f165;
+}
+.contact .contact-container .divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.contact .contact-container .divider .horizontal-bar {
+  width: 40%;
+  height: 0.005rem;
+  background-color: #424242;
+}
+.contact .contact-container .divider p {
+  font-size: 20px;
+  color: #BEE329;
+}
+.contact .contact-container .contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+}
+.contact .contact-container .contact-info a {
+  text-decoration: none;
+  color: #EEEEEC;
+  font-size: 1.1rem;
+  display: block;
+}
+.contact .contact-container .contact-info a:hover {
+  text-decoration: underline;
+}
+.contact .contact-container .contact-info div {
+  border: 1px solid #424242;
+  width: 100%;
+  padding: 18.5px 24px;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  gap: 0.5rem;
+}
+.contact .contact-container .contact-info div p {
+  font-size: 1.4rem;
+  color: #EEEEEC;
 }/*# sourceMappingURL=Contact.css.map */

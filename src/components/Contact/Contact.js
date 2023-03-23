@@ -1,5 +1,7 @@
 import React from 'react';
 import './Contact.css';
+import { BsTelephone } from 'react-icons/bs';
+import { HiOutlineMail } from 'react-icons/hi';
 
 const Contact = () => {
     return (
@@ -17,6 +19,23 @@ const Contact = () => {
 
                     <input type="submit" value="Submit" className='submit-btn' />
                 </form>
+
+                <div className="divider">
+                    <div className="horizontal-bar"></div>
+                    <p className='or-section'>or contact us</p>
+                    <div className="horizontal-bar"></div>
+                </div>
+
+                <div className="contact-info">
+                    <div>
+                        <p className="icon"><BsTelephone></BsTelephone></p>
+                        <a href="tel:+8801765215167">+880-1765-215167</a>
+                    </div>
+                    <div>
+                        <p className="icon"><HiOutlineMail></HiOutlineMail></p>
+                        <a href="mailto:contact@tridle.io">contact@tridle.io</a>
+                    </div>
+                </div>
             </div>
         </div>
     );

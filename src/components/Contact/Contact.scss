@@ -7,6 +7,7 @@ $text-primary: #EEEEEC;
 $text-secondary: rgba(248, 252, 234, 1);
 $text-highlighted: #BEE329;
 $border: #EEEEEC;
+$border-secondary: #424242;
 
 .contact {
     background-color: $bg-primary;
@@ -19,7 +20,7 @@ $border: #EEEEEC;
         padding: 4rem 20rem;
 
         h3 {
-            font-family: 'Satoshi';
+            font-family: $font-family-primary;
             font-style: normal;
             font-weight: 700;
             font-size: 2rem;
@@ -35,6 +36,7 @@ $border: #EEEEEC;
             font-size: 20px;
             line-height: 27px;
             color: $border;
+            color: $text-primary;
         }
 
         .contact-form{
@@ -60,8 +62,7 @@ $border: #EEEEEC;
                 padding: 1rem;
                 border-radius: 0.55rem;
                 width: 100%;
-                
-            color: $border;
+                color: $border;
             }
 
             .description-field{
@@ -81,6 +82,59 @@ $border: #EEEEEC;
 
                 &:hover{
                     background-color: #d7f165;
+                }
+            }
+        }
+
+        .divider{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1.5rem 0;
+
+            .horizontal-bar{
+                width: 40%;
+                height: 0.005rem;
+                background-color: $border-secondary;
+            }
+
+            p{
+                font-size: 20px;
+                color: $text-highlighted;
+            }
+        }
+
+        .contact-info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 0.6rem;
+
+            a{
+                text-decoration: none;
+                color: $border;
+                font-size: 1.1rem;
+                display: block;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
+            div{
+                border: 1px solid $border-secondary;
+                width: 100%;
+                padding: 18.5px 24px;
+                border-radius: 0.4rem;
+                display: flex;
+                justify-content: center;
+                align-items: normal;
+                gap: 0.5rem;
+
+                p{
+                    font-size: 1.4rem;
+                    color: $border;
                 }
             }
         }
