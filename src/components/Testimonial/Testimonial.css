@@ -1,0 +1,98 @@
+.testimonial {
+  background-color: #000;
+  padding: 6rem;
+}
+.testimonial h3 {
+  font-family: "Satoshi", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BEE329;
+}
+.testimonial .testimonial-container {
+  margin-top: 3rem;
+}
+.testimonial .testimonial-container .ratings {
+  color: #FEC84B;
+  margin-bottom: 1.5rem;
+}
+.testimonial .testimonial-container .ratings .star {
+  margin: 0 0.2rem;
+}
+.testimonial .testimonial-container .comments {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  color: #EEEEEC;
+}
+.testimonial .testimonial-container .bottom-section {
+  margin-top: 3rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial .testimonial-container .bottom-section .author {
+  color: #EEEEEC;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.testimonial .testimonial-container .bottom-section .author img {
+  width: 56px;
+  height: 56px;
+  border-radius: 200px;
+}
+.testimonial .testimonial-container .bottom-section .author p {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+.testimonial .testimonial-container .bottom-section .author .name {
+  font-weight: 500 !important;
+}
+.testimonial .testimonial-container .bottom-section .author .designation {
+  font-weight: 300 !important;
+  color: #EEEEEC;
+}
+.testimonial .testimonial-container .bottom-section .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.testimonial .testimonial-container .bottom-section .pagination .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EEEEEC;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: rgb(28, 29, 24);
+  font-size: 24px;
+  cursor: pointer;
+}
+.testimonial .testimonial-container .bottom-section .pagination .left:hover {
+  background-color: #2d3436;
+}
+.testimonial .testimonial-container .bottom-section .pagination .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: #BEE329;
+  font-size: 24px;
+  cursor: pointer;
+}
+.testimonial .testimonial-container .bottom-section .pagination .right:hover {
+  background-color: #d7f165;
+}/*# sourceMappingURL=Testimonial.css.map */

@@ -1,0 +1,122 @@
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$border: #EEEEEC;
+
+.testimonial {
+    background-color: $bg-primary;
+    padding: 6rem;
+
+    h3 {
+        font-family: $font-family-primary;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $text-highlighted;
+    }
+
+    .testimonial-container {
+        margin-top: 3rem;
+
+        .ratings {
+            color: #FEC84B;
+            margin-bottom: 1.5rem;
+
+            .star {
+                margin: 0 0.2rem;
+            }
+        }
+
+        .comments {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
+            color: $text-primary;
+        }
+
+        .bottom-section {
+            margin-top: 3rem;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .author {
+                color: $text-primary;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                img {
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 200px;
+                }
+
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    // font-weight: 500;
+                    font-size: 18px;
+                    line-height: 28px;                    
+                }
+
+                .name{
+                    font-weight: 500 !important;
+                }
+
+                .designation{
+                    font-weight: 300 !important;
+                    color: $border;
+                }
+            }
+
+            .pagination{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.5rem;
+
+                .left{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $text-primary;
+                    height: 56px;
+                    width: 56px;
+                    border-radius: 50%;
+                    background-color: $bg-secondary;
+                    font-size: 24px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #2d3436;
+                    }
+                }
+                .right{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $bg-primary;
+                    height: 56px;
+                    width: 56px;
+                    border-radius: 50%;
+                    background-color: $text-highlighted;
+                    font-size: 24px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #d7f165;
+                    }
+                }
+            }
+        }
+    }
+}
