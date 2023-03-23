@@ -1,19 +1,88 @@
 $bg-primary: #000;
 $bg-secondary: rgba(28, 29, 24, 1);
 $bg-purple: #9D4EDD;
+$input-bg:rgba(249, 252, 234, 0.15);
 $font-family-primary: 'Satoshi', sans-serif;
 $text-primary: #EEEEEC;
 $text-secondary: rgba(248, 252, 234, 1);
 $text-highlighted: #BEE329;
 $border: #EEEEEC;
 
-.contact{
+.contact {
     background-color: $bg-primary;
-    padding: 48px 96px 0 96px;
+    padding: 3rem 6rem 0 6rem;
 
-    .contact-container{
+    .contact-container {
         border-radius: 1rem;
         background-color: $bg-secondary;
         text-align: center;
+        padding: 4rem 20rem;
+
+        h3 {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 49px;
+            color: $text-primary;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            font-family: $font-family-primary;
+            font-style: normal;
+            font-weight: 300 !important;
+            font-size: 20px;
+            line-height: 27px;
+            color: $border;
+        }
+
+        .contact-form{
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // flex-direction: column;
+            gap: 0.5rem;
+            margin-top: 3rem;
+
+            div{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 0.5rem;
+                input{
+                    width: 100% !important;
+                }
+            }
+
+            input:not(.submit-btn){
+                background-color: $input-bg;
+                border: none;
+                padding: 1rem;
+                border-radius: 0.55rem;
+                width: 100%;
+                
+            color: $border;
+            }
+
+            .description-field{
+                height: 4.75rem;
+            }
+
+            .submit-btn{
+                margin-top: 1rem;
+                background-color: $text-highlighted;
+                color: #000;
+                font-size: 1.25rem;
+                padding: 1rem 4rem;
+                font-family: $font-family-primary;
+                border-radius: 0.625rem;
+                font-weight: 700;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #d7f165;
+                }
+            }
+        }
     }
 }

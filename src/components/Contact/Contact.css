@@ -1,9 +1,64 @@
 .contact {
   background-color: #000;
-  padding: 48px 96px 0 96px;
+  padding: 3rem 6rem 0 6rem;
 }
 .contact .contact-container {
   border-radius: 1rem;
   background-color: rgb(28, 29, 24);
   text-align: center;
+  padding: 4rem 20rem;
+}
+.contact .contact-container h3 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 49px;
+  color: #EEEEEC;
+  margin-bottom: 0.8rem;
+}
+.contact .contact-container p {
+  font-family: "Satoshi", sans-serif;
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 20px;
+  line-height: 27px;
+  color: #EEEEEC;
+}
+.contact .contact-container .contact-form {
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+.contact .contact-container .contact-form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.contact .contact-container .contact-form div input {
+  width: 100% !important;
+}
+.contact .contact-container .contact-form input:not(.submit-btn) {
+  background-color: rgba(249, 252, 234, 0.15);
+  border: none;
+  padding: 1rem;
+  border-radius: 0.55rem;
+  width: 100%;
+  color: #EEEEEC;
+}
+.contact .contact-container .contact-form .description-field {
+  height: 4.75rem;
+}
+.contact .contact-container .contact-form .submit-btn {
+  margin-top: 1rem;
+  background-color: #BEE329;
+  color: #000;
+  font-size: 1.25rem;
+  padding: 1rem 4rem;
+  font-family: "Satoshi", sans-serif;
+  border-radius: 0.625rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.contact .contact-container .contact-form .submit-btn:hover {
+  background-color: #d7f165;
 }/*# sourceMappingURL=Contact.css.map */
