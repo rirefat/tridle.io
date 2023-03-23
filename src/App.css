@@ -10,3 +10,7 @@
   border: 1px solid black;  
   color: #BEE329;
 }
+
+.scroll-to-top:hover{
+  background-color: #6b6e5e !important;
+}

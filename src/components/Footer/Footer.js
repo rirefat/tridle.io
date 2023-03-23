@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { BsTwitter, BsLinkedin, BsFacebook, BsGithub } from 'react-icons/bs';
+import { BsTwitter, BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 
 const Footer = () => {
     return (
@@ -23,10 +23,11 @@ const Footer = () => {
                 <div className="copyright-text">© Tridle | All rights reserved.</div>
                 <div className="social-links">
                     <ul>
-                        <li><a href="#"><BsTwitter></BsTwitter></a></li>
-                        <li><a href="#"><BsLinkedin></BsLinkedin></a></li>
-                        <li><a href="#"><BsFacebook></BsFacebook></a></li>
-                        <li><a href="#"><BsGithub></BsGithub></a></li>
+                        <li><a target="_blank" href="#"><BsTwitter></BsTwitter></a></li>
+                        <li><a target="_blank" href="http://www.linkedin.com/company/tridle-io"><BsLinkedin></BsLinkedin></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/tridle.io"><BsFacebook></BsFacebook></a></li>
+                        <li><a target="_blank" href="http://instagram.com/tridle.io"><BsInstagram></BsInstagram></a></li>
+                        <li><a target="_blank" href="#"><BsGithub></BsGithub></a></li>
                     </ul>
                 </div>
             </div>     
