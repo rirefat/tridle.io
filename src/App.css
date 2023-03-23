@@ -5,10 +5,8 @@
   scroll-behavior: smooth;
 }
 
-body{
-  /* background-color: #000000; */
-}
-
-.container{
-  /* padding: 0 96px; */
+.scroll-to-top{
+  background-color: #3D3F37 !important;
+  border: 1px solid black;  
+  color: #BEE329;
 }
