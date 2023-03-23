@@ -1,0 +1,91 @@
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$border: #EEEEEC;
+
+.services-section {
+    background-color: $bg-primary;
+    padding: 6rem;
+
+    h3 {
+        //styleName: H3;
+        font-family: $font-family-primary;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $text-highlighted;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300 !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: $border;
+        margin-top: 1rem;
+    }
+
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 3rem;
+
+        .ui-ux {
+            color: black;
+            background-color: $text-highlighted;
+            border-radius: 1.5rem;
+            padding: 4rem 3rem;
+
+            h4 {
+                font-family: $font-family-primary;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 54px;
+                text-transform: capitalize;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500 !important;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+            }
+        }
+        
+        .web-dev {
+            color: $text-primary;
+            background-color: #9D4EDD;
+            border-radius: 1.5rem;
+            padding: 4rem 3rem;
+
+            h4 {
+                font-family: $font-family-primary;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 54px;
+                text-transform: capitalize;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500 !important;
+                font-size: 16px;
+                line-height: 24px;
+                color: $text-primary;
+            }
+        }
+    }
+}
