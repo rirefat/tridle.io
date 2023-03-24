@@ -3,7 +3,7 @@ import './Services.css';
 
 const Services = () => {
     return (
-        <div className='services-section'>
+        <div className='services-section' id='services'>
             <h3>Our Services</h3>
             <p>Here at Tridle we focus on markets where technology & capital can unlock long-term value and drive economic growth.</p>
             <div className="services-container">

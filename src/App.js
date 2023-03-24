@@ -9,10 +9,12 @@ import Services from './components/Services/Services';
 import Testimonial from './components/Testimonial/Testimonial';
 
 import { FiArrowUpCircle } from 'react-icons/fi';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
     <div className='container'>
+      <Navbar></Navbar>
       <HeroSection></HeroSection>
       <Portfolio></Portfolio>
       <Services></Services>
