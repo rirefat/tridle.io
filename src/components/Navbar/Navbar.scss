@@ -10,12 +10,20 @@ $footer-text: #98A2B3;
 $border: #EEEEEC;
 $border-secondary: #424242;
 
+.dflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//======================================== Navbar for big screen ========================================
 .navbar {
     background-color: $bg-primary;
     padding: 2rem 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    // position: relative;
 
     // width: 100%;
     // position: fixed;
@@ -60,17 +68,53 @@ $border-secondary: #424242;
         }
     }
 
-    .toggle-btn{
+    .toggle-btn {
         color: $text-primary;
         font-size: 2.5rem;
         cursor: pointer;
         display: none;
 
-        &:hover{
+        &:hover {
             color: $text-highlighted;
         }
     }
 }
+
+//=================================== Navbar for small screen (Flex Menu) ===================================
+.flex-menu {
+    background-color: $bg-primary;
+    color: #EEEEEC;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+
+        a {
+            text-decoration: none;
+            color: $text-primary;
+            display: block;
+            padding: 3rem 20% 0 20%;
+            font-size: 2rem;
+            font-family: $font-family-primary;
+
+            &:hover:not(.flex-menu-btn){
+                color: $text-highlighted;
+            }
+        }
+    }
+}
+
+
+//=================================== Media Queries ===================================
 
 @media screen and (max-width: 1060px) {
     .navbar {
@@ -100,6 +144,7 @@ $border-secondary: #424242;
         }
     }
 }
+
 @media screen and (max-width: 880px) {
     .navbar {
         img {
@@ -128,16 +173,16 @@ $border-secondary: #424242;
 }
 
 @media screen and (max-width: 750px) {
-    .navbar{
-        .nav-menu{
+    .navbar {
+        .nav-menu {
             display: none;
         }
 
-        button{
+        button {
             display: none;
         }
 
-        .toggle-btn{
+        .toggle-btn {
             display: block;
         }
     }
