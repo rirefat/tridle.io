@@ -23,4 +23,10 @@
 .top-project-card .description {
   font-size: 1rem;
   width: 78%;
+}
+
+@media screen and (max-width: 1450px) {
+  .top-project-card img {
+    width: 92%;
+  }
 }/*# sourceMappingURL=TopProject.css.map */

@@ -71,8 +71,15 @@
   color: #EEEEEC;
 }
 
-@media screen and (max-width: 1000px) {
-  .services-container {
+@media screen and (max-width: 1066px) {
+  .services-section h3 {
+    font-size: 2rem;
+  }
+  .services-section p {
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+  .services-section .services-container {
     display: grid;
     grid-template-columns: 1fr !important;
   }

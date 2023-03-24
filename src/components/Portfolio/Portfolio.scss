@@ -45,3 +45,24 @@ $border: #EEEEEC;
         }
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .portfolio-section{
+        padding: 6rem !important;
+        max-width: 1440px !important;
+
+        .sample-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .sample-container{
+        .right-container{
+            gap: 1rem;
+        }
+    }
+}

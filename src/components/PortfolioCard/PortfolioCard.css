@@ -3,7 +3,7 @@
   width: 322px;
   height: 200px;
 }
-.portfolio-card p {
+.portfolio-card .card-meta-data {
   font-family: "Satoshi", sans-serif;
   font-weight: 400;
   font-size: 0.8rem !important;
@@ -11,7 +11,6 @@
   margin: 0 !important;
   padding: 0 !important;
   letter-spacing: 0.05rem;
-  height: 2rem !important;
 }
 .portfolio-card h4 {
   margin: 0;
@@ -23,4 +22,25 @@
 .portfolio-card h4:hover {
   color: #a3ca07;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1450px) {
+  .portfolio-card img {
+    width: 92%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1210px) {
+  h4 {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .card-meta-data {
+    font-size: 0.8rem !important;
+    line-height: 22px;
+    margin-bottom: 3px !important;
+    padding: 0 !important;
+    letter-spacing: 0.05rem;
+  }
 }/*# sourceMappingURL=PortfolioCard.css.map */

@@ -13,7 +13,7 @@ $border: #EEEEEC;
         width: 322px;
         height: 200px;
     }
-    p {
+    .card-meta-data{
         font-family: $font-family-primary;
         font-weight: 400;
         font-size: 0.8rem !important;
@@ -21,7 +21,7 @@ $border: #EEEEEC;
         margin: 0 !important;
         padding: 0 !important;
         letter-spacing: 0.05rem;
-        height: 2rem !important;
+        // height: 2rem !important;
     }
 
     h4{
@@ -37,3 +37,28 @@ $border: #EEEEEC;
         }
     }
 }
+
+@media screen and (max-width: 1450px){
+    .portfolio-card{
+        img{
+            width: 92%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1210px){
+    h4{
+        width: 90% !important;
+    }
+}
+@media screen and (max-width: 1180px){
+    .card-meta-data {
+        font-size: 0.8rem !important;
+        line-height: 22px;
+        margin-bottom: 3px !important;
+        padding: 0 !important;
+        letter-spacing: 0.05rem;
+    }
+}
+

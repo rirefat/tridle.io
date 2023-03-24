@@ -42,3 +42,11 @@ $border: #EEEEEC;
         width: 78%;
     }
 }
+
+@media screen and (max-width: 1450px) {
+    .top-project-card{
+        img{
+            width: 92%;
+        }
+    }
+}
