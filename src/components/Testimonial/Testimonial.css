@@ -103,7 +103,7 @@
     font-size: 2rem;
   }
   .testimonial .testimonial-container .comments {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "Inter";
     line-height: 2.1rem;
   }
@@ -114,7 +114,7 @@
 }
 @media screen and (max-width: 740px) {
   .comments {
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
     line-height: 2rem !important;
   }
   .pagination {
@@ -147,7 +147,7 @@
 }
 @media screen and (max-width: 535px) {
   .comments {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     line-height: 1.8rem !important;
   }
   .bottom-section .author .details p {
@@ -182,6 +182,10 @@
 @media screen and (max-width: 360px) {
   .testimonial {
     padding: 2rem;
+  }
+  .testimonial .comments {
+    font-size: 0.8rem !important;
+    line-height: 1.8rem !important;
   }
   .testimonial .bottom-section {
     margin-top: 1.7rem !important;
