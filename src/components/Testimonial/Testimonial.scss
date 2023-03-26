@@ -8,12 +8,13 @@ $text-highlighted: #BEE329;
 $border: #EEEEEC;
 
 .testimonial {
+    max-width: 1440px;
     background-color: $bg-primary;
     padding: 6rem;
 
     h3 {
         font-family: $font-family-primary;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 700;
         line-height: 54px;
         letter-spacing: 0em;
@@ -48,6 +49,7 @@ $border: #EEEEEC;
             display: flex;
             align-items: center;
             justify-content: space-between;
+
             .author {
                 color: $text-primary;
                 display: flex;
@@ -65,26 +67,26 @@ $border: #EEEEEC;
                     font-style: normal;
                     // font-weight: 500;
                     font-size: 18px;
-                    line-height: 28px;                    
+                    line-height: 28px;
                 }
 
-                .name{
+                .name {
                     font-weight: 500 !important;
                 }
 
-                .designation{
+                .designation {
                     font-weight: 300 !important;
-                    color: $border;
+                    color: grey;
                 }
             }
 
-            .pagination{
+            .pagination {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 1.5rem;
 
-                .left{
+                .left {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -96,11 +98,12 @@ $border: #EEEEEC;
                     font-size: 24px;
                     cursor: pointer;
 
-                    &:hover{
+                    &:hover {
                         background-color: #2d3436;
                     }
                 }
-                .right{
+
+                .right {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -112,11 +115,134 @@ $border: #EEEEEC;
                     font-size: 24px;
                     cursor: pointer;
 
-                    &:hover{
+                    &:hover {
                         background-color: #d7f165;
                     }
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1066px) {
+    .testimonial {
+        h3 {
+            font-size: 2rem;
+        }
+
+        .testimonial-container {
+            .comments {
+                font-size: 1.2rem;
+                font-family: 'Inter';
+                line-height: 2.1rem;
+            }
+
+            .bottom-section {
+                .author {
+                    .details {
+                        p {
+                            font-size: 16px !important;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .comments {
+        font-size: 1.1rem !important;
+        line-height: 2.0rem !important;
+    }
+
+    .pagination {
+        gap: 1rem !important;
+
+        .left,
+        .right {
+            height: 46px !important;
+            width: 46px !important;
+            border-radius: 50%;
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .testimonial {
+        padding: 3.8rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .pagination {
+        justify-content: end !important;
+
+        .left,
+        .right {
+            height: 40px !important;
+            width: 40px !important;
+            border-radius: 50%;
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .comments{
+        font-size: 1.0rem !important;
+        line-height: 1.8rem !important;
+    }
+
+    .bottom-section{
+        .author {
+            .details{
+                p {
+                    font-size: 14px !important;
+                    line-height: 24px !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .testimonial {
+        padding: 3.0rem;
+        text-align: center !important;
+
+        h3{
+            text-align: center;
+        }
+
+        .bottom-section{
+            width: 100% !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 2rem;
+
+            .author{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 1.5rem !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .testimonial {
+        padding: 2rem;
+
+        .bottom-section{
+            margin-top: 1.7rem !important;
         }
     }
 }

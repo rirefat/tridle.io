@@ -1,10 +1,11 @@
 .testimonial {
+  max-width: 1440px;
   background-color: #000;
   padding: 6rem;
 }
 .testimonial h3 {
   font-family: "Satoshi", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 54px;
   letter-spacing: 0em;
@@ -58,7 +59,7 @@
 }
 .testimonial .testimonial-container .bottom-section .author .designation {
   font-weight: 300 !important;
-  color: #EEEEEC;
+  color: grey;
 }
 .testimonial .testimonial-container .bottom-section .pagination {
   display: flex;
@@ -95,4 +96,94 @@
 }
 .testimonial .testimonial-container .bottom-section .pagination .right:hover {
   background-color: #d7f165;
+}
+
+@media screen and (max-width: 1066px) {
+  .testimonial h3 {
+    font-size: 2rem;
+  }
+  .testimonial .testimonial-container .comments {
+    font-size: 1.2rem;
+    font-family: "Inter";
+    line-height: 2.1rem;
+  }
+  .testimonial .testimonial-container .bottom-section .author .details p {
+    font-size: 16px !important;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .comments {
+    font-size: 1.1rem !important;
+    line-height: 2rem !important;
+  }
+  .pagination {
+    gap: 1rem !important;
+  }
+  .pagination .left,
+  .pagination .right {
+    height: 46px !important;
+    width: 46px !important;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .testimonial {
+    padding: 3.8rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .pagination {
+    justify-content: end !important;
+  }
+  .pagination .left,
+  .pagination .right {
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 535px) {
+  .comments {
+    font-size: 1rem !important;
+    line-height: 1.8rem !important;
+  }
+  .bottom-section .author .details p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonial {
+    padding: 3rem;
+    text-align: center !important;
+  }
+  .testimonial h3 {
+    text-align: center;
+  }
+  .testimonial .bottom-section {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .testimonial .bottom-section .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .testimonial {
+    padding: 2rem;
+  }
+  .testimonial .bottom-section {
+    margin-top: 1.7rem !important;
+  }
 }/*# sourceMappingURL=Testimonial.css.map */
