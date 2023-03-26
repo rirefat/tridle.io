@@ -58,7 +58,7 @@
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2rem;
   line-height: 54px;
   text-transform: capitalize;
 }
@@ -82,5 +82,44 @@
   .services-section .services-container {
     display: grid;
     grid-template-columns: 1fr !important;
+  }
+  .services-section .services-container h4 {
+    font-size: 1.8rem !important;
+  }
+}
+@media screen and (max-width: 510px) {
+  .services-section .services-container h4 {
+    font-size: 1.6rem !important;
+  }
+  .services-section .services-container p {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services-section {
+    padding: 3rem !important;
+  }
+  .services-section h3, .services-section p {
+    text-align: center !important;
+  }
+  .services-section .services-container h4, .services-section .services-container p {
+    text-align: center !important;
+  }
+  .services-section .services-container .ui-ux, .services-section .services-container .web-dev {
+    padding: 2rem 1.5rem !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .services-section {
+    padding: 2rem !important;
+  }
+  .services-section h3, .services-section p {
+    text-align: center !important;
+  }
+  .services-section .services-container h4, .services-section .services-container p {
+    text-align: center !important;
+  }
+  .services-section .services-container .ui-ux, .services-section .services-container .web-dev {
+    padding: 2rem 1.5rem !important;
   }
 }/*# sourceMappingURL=Services.css.map */

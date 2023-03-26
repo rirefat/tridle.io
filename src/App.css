@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: black;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .scroll-to-top{
   background-color: #3D3F37 !important;
   border: 1px solid black;  

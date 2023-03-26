@@ -12,7 +12,6 @@ $border: #EEEEEC;
     padding: 6rem;
 
     h3 {
-        //styleName: H3;
         font-family: $font-family-primary;
         font-size: 40px;
         font-weight: 700;
@@ -73,7 +72,7 @@ $border: #EEEEEC;
                 font-family: $font-family-primary;
                 font-style: normal;
                 font-weight: 700;
-                font-size: 35px;
+                font-size: 2rem;
                 line-height: 54px;
                 text-transform: capitalize;
             }
@@ -104,6 +103,61 @@ $border: #EEEEEC;
         .services-container {
             display: grid;
             grid-template-columns: 1fr !important;
+
+            h4{
+                font-size: 1.8rem !important;
+            }
+        }
+    }
+}
+@media screen and (max-width:510px) {
+    .services-section{
+        .services-container {
+            h4{
+                font-size: 1.6rem !important;
+            }
+
+            p{
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .services-section{
+        padding: 3rem !important;
+        h3,p{
+            text-align: center !important;
+        }
+
+        .services-container{
+            h4, p{
+                text-align: center !important;
+            }
+
+            .ui-ux, .web-dev{
+                padding: 2rem 1.5rem !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .services-section{
+        padding: 2rem !important;
+        h3,p{
+            text-align: center !important;
+        }
+
+        .services-container{
+            h4, p{
+                text-align: center !important;
+            }
+
+            .ui-ux, .web-dev{
+                padding: 2rem 1.5rem !important;
+            }
         }
     }
 }
