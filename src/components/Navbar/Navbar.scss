@@ -217,3 +217,19 @@ $border-secondary: #424242;
         }
     }
 }
+
+@media screen and (max-width: 630px) {
+    .navbar{
+        padding: 1.8rem 3.8rem !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .navbar{
+        padding: 1.8rem 3.0rem !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .navbar{
+        padding: 1.5rem 2.0rem !important;
+    }
+}

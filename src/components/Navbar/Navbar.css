@@ -155,4 +155,19 @@
   .navbar .toggle-btn {
     display: block;
   }
+}
+@media screen and (max-width: 630px) {
+  .navbar {
+    padding: 1.8rem 3.8rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding: 1.8rem 3rem !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .navbar {
+    padding: 1.5rem 2rem !important;
+  }
 }/*# sourceMappingURL=Navbar.css.map */
