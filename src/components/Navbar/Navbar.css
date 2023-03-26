@@ -19,11 +19,17 @@
 .navbar .nav-menu ul li {
   list-style: none;
   padding: 0 1.5rem;
+  cursor: pointer;
 }
 .navbar .nav-menu ul li a {
   text-decoration: none;
   color: #EEEEEC;
   font-size: 1.5rem;
+  cursor: pointer !important;
+}
+.navbar .nav-menu ul li a:hover {
+  color: #BEE329;
+  cursor: pointer !important;
 }
 .navbar button {
   padding: 1rem 2rem !important;
@@ -77,9 +83,30 @@
   padding: 3rem 20% 0 20%;
   font-size: 2rem;
   font-family: "Satoshi", sans-serif;
+  cursor: pointer;
 }
 .flex-menu .menu-container a:hover:not(.flex-menu-btn) {
   color: #BEE329;
+}
+.flex-menu .menu-container .flex-menu-btn {
+  padding: 0.8rem 2rem !important;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #BEE329;
+  color: black;
+  margin: 2.5rem 0;
+}
+.flex-menu .menu-container .flex-menu-btn:hover {
+  transform: translateY(-5px);
+  border: 1px solid rgba(208, 213, 221, 0.15);
+  background-color: #1C1D18;
+  color: #EEEEEC;
 }
 
 @media screen and (max-width: 1060px) {

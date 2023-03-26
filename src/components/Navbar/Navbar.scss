@@ -38,11 +38,18 @@ $border-secondary: #424242;
             li {
                 list-style: none;
                 padding: 0 1.5rem;
+                cursor: pointer;
 
                 a {
                     text-decoration: none;
                     color: $text-primary;
                     font-size: 1.5rem;
+                    cursor: pointer !important;
+
+                    &:hover {
+                        color: $text-highlighted;
+                        cursor: pointer !important;
+                    }
                 }
             }
         }
@@ -105,9 +112,32 @@ $border-secondary: #424242;
             padding: 3rem 20% 0 20%;
             font-size: 2rem;
             font-family: $font-family-primary;
+            cursor: pointer;
 
-            &:hover:not(.flex-menu-btn){
+            &:hover:not(.flex-menu-btn) {
                 color: $text-highlighted;
+            }
+        }
+
+        .flex-menu-btn {
+            padding: 0.8rem 2rem !important;
+            text-align: center;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+            background-color: $text-highlighted;
+            color: black;
+            margin: 2.5rem 0;
+
+            &:hover {
+                transform: translateY(-5px);
+                border: 1px solid rgba(208, 213, 221, 0.15);
+                background-color: #1C1D18;
+                color: $text-primary;
             }
         }
     }
