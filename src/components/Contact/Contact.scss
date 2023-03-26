@@ -11,13 +11,13 @@ $border-secondary: #424242;
 
 .contact {
     background-color: $bg-primary;
-    padding: 3rem 6rem 0 6rem;
+    padding: 0 6rem;
 
     .contact-container {
         border-radius: 1rem;
         background-color: $bg-secondary;
         text-align: center;
-        padding: 4rem 20rem;
+        padding: 4rem 17.031rem;
 
         h3 {
             font-family: $font-family-primary;
@@ -33,40 +33,36 @@ $border-secondary: #424242;
             font-family: $font-family-primary;
             font-style: normal;
             font-weight: 300 !important;
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 27px;
             color: $border;
             color: $text-primary;
         }
 
         .contact-form{
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
-            // flex-direction: column;
-            gap: 0.5rem;
             margin-top: 3rem;
 
-            div{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 0.5rem;
-                input{
-                    width: 100% !important;
-                }
+            input, textarea{
+                width: 100% !important;
             }
 
-            input:not(.submit-btn){
+            textarea, input:not(.submit-btn){
+                font-family: $font-family-primary;
                 background-color: $input-bg;
                 border: none;
                 padding: 1rem;
                 border-radius: 0.55rem;
                 width: 100%;
                 color: $border;
+                margin-bottom: 0.5rem;
             }
 
-            .description-field{
-                height: 4.75rem;
+            #email_phone{
+                height: 3.375rem !important;
+            }
+
+            #project_description{
+                min-height: 4.75rem;
             }
 
             .submit-btn{
@@ -74,11 +70,13 @@ $border-secondary: #424242;
                 background-color: $text-highlighted;
                 color: #000;
                 font-size: 1.25rem;
-                padding: 1rem 4rem;
+                // padding: 1rem 4rem !important;
                 font-family: $font-family-primary;
                 border-radius: 0.625rem;
                 font-weight: 700;
                 cursor: pointer;
+                width: 16.438rem !important;
+                height: 3.125rem !important;
 
                 &:hover{
                     background-color: #d7f165;

@@ -1,12 +1,12 @@
 .contact {
   background-color: #000;
-  padding: 3rem 6rem 0 6rem;
+  padding: 0 6rem;
 }
 .contact .contact-container {
   border-radius: 1rem;
   background-color: rgb(28, 29, 24);
   text-align: center;
-  padding: 4rem 20rem;
+  padding: 4rem 17.031rem;
 }
 .contact .contact-container h3 {
   font-family: "Satoshi", sans-serif;
@@ -21,44 +21,44 @@
   font-family: "Satoshi", sans-serif;
   font-style: normal;
   font-weight: 300 !important;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 27px;
   color: #EEEEEC;
   color: #EEEEEC;
 }
 .contact .contact-container .contact-form {
-  gap: 0.5rem;
   margin-top: 3rem;
 }
-.contact .contact-container .contact-form div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-}
-.contact .contact-container .contact-form div input {
+.contact .contact-container .contact-form input, .contact .contact-container .contact-form textarea {
   width: 100% !important;
 }
-.contact .contact-container .contact-form input:not(.submit-btn) {
+.contact .contact-container .contact-form textarea, .contact .contact-container .contact-form input:not(.submit-btn) {
+  font-family: "Satoshi", sans-serif;
   background-color: rgba(249, 252, 234, 0.15);
   border: none;
   padding: 1rem;
   border-radius: 0.55rem;
   width: 100%;
   color: #EEEEEC;
+  margin-bottom: 0.5rem;
 }
-.contact .contact-container .contact-form .description-field {
-  height: 4.75rem;
+.contact .contact-container .contact-form #email_phone {
+  height: 3.375rem !important;
+}
+.contact .contact-container .contact-form #project_description {
+  min-height: 4.75rem;
 }
 .contact .contact-container .contact-form .submit-btn {
   margin-top: 1rem;
   background-color: #BEE329;
   color: #000;
   font-size: 1.25rem;
-  padding: 1rem 4rem;
   font-family: "Satoshi", sans-serif;
   border-radius: 0.625rem;
   font-weight: 700;
   cursor: pointer;
+  width: 16.438rem !important;
+  height: 3.125rem !important;
 }
 .contact .contact-container .contact-form .submit-btn:hover {
   background-color: #d7f165;
