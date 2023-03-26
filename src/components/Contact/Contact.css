@@ -29,10 +29,12 @@
 .contact .contact-container .contact-form {
   margin-top: 3rem;
 }
-.contact .contact-container .contact-form input, .contact .contact-container .contact-form textarea {
+.contact .contact-container .contact-form input,
+.contact .contact-container .contact-form textarea {
   width: 100% !important;
 }
-.contact .contact-container .contact-form textarea, .contact .contact-container .contact-form input:not(.submit-btn) {
+.contact .contact-container .contact-form textarea,
+.contact .contact-container .contact-form input:not(.submit-btn) {
   font-family: "Satoshi", sans-serif;
   background-color: rgba(249, 252, 234, 0.15);
   border: none;
@@ -107,4 +109,107 @@
 .contact .contact-container .contact-info div p {
   font-size: 1.4rem;
   color: #EEEEEC;
+}
+
+@media screen and (max-width: 1375px) {
+  .contact .contact-container h3 {
+    font-size: 1.8rem;
+  }
+  .contact .contact-container p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 1315px) {
+  .contact .contact-container {
+    padding: 4rem 15rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .contact .contact-container {
+    padding: 4rem 12rem;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .contact .contact-container {
+    padding: 4rem 10rem;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .contact .contact-container {
+    padding: 4rem 8rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .contact .contact-container {
+    padding: 4rem 6rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .contact .contact-container {
+    padding: 4rem 5rem;
+  }
+  .contact .contact-container h3 {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .contact .contact-container p {
+    font-size: 1rem;
+  }
+  .contact .contact-container .contact-form .submit-btn {
+    font-size: 1.1rem;
+    width: 15rem !important;
+  }
+}
+@media screen and (max-width: 730px) {
+  .contact .contact-container .contact-form .submit-btn {
+    width: 12rem !important;
+  }
+}
+@media screen and (max-width: 670px) {
+  .contact .contact-container {
+    padding: 4rem !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .contact {
+    padding: 0 3.8rem !important;
+  }
+  .contact .contact-container {
+    padding: 2rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    padding: 0 3rem !important;
+  }
+  .contact .contact-container h3 {
+    font-size: 1.45rem;
+    line-height: 30px;
+  }
+  .contact .contact-container p {
+    font-size: 0.9rem;
+  }
+  .contact .contact-container .contact-form .submit-btn {
+    width: 10rem !important;
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .contact {
+    padding: 0 2rem !important;
+  }
+  .contact .contact-container .contact-form .submit-btn {
+    width: 10rem !important;
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 310px) {
+  .contact {
+    padding: 0 2rem !important;
+  }
+  .contact .contact-container .contact-form .submit-btn {
+    width: 8rem !important;
+    height: 2.9rem !important;
+    font-size: 0.9rem !important;
+  }
 }/*# sourceMappingURL=Contact.css.map */
