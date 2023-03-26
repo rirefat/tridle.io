@@ -128,6 +128,11 @@
     font-size: 0.9rem !important;
   }
 }
+@media screen and (max-width: 725px) {
+  .hero-section {
+    padding: 3rem 4rem !important;
+  }
+}
 @media screen and (max-width: 765px) {
   .hero-section h1 {
     font-size: 2.4rem;
@@ -135,6 +140,7 @@
   .hero-section p {
     margin: 2rem 5rem !important;
     line-height: 1.8rem !important;
+    margin: 2rem 3rem !important;
   }
   .hero-section button {
     padding: 15px 30px;
@@ -143,12 +149,17 @@
     font-size: 0.85rem !important;
   }
 }
+@media screen and (max-width: 630px) {
+  .hero-section {
+    padding: 2.5rem 3.8rem !important;
+  }
+}
 @media screen and (max-width: 570px) {
   .hero-section h1 {
     font-size: 2rem;
   }
   .hero-section p {
-    margin: 2rem 5rem !important;
+    margin: 2rem !important;
     line-height: 1.8rem !important;
     font-size: 1.3rem !important;
   }
@@ -168,8 +179,24 @@
   }
   .hero-section .call-to-action button {
     padding: 15px 30px;
-    width: 12rem !important;
+    width: 15rem !important;
     height: 3.5rem !important;
-    font-size: 0.7rem !important;
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero-section {
+    padding: 3rem !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hero-section {
+    padding: 2rem !important;
+  }
+  .hero-section .call-to-action button {
+    padding: 15px 20px;
+    width: 15rem !important;
+    height: 3.5rem !important;
+    font-size: 0.85rem !important;
   }
 }/*# sourceMappingURL=HeroSection.css.map */

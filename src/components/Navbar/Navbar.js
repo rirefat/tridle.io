@@ -108,7 +108,7 @@ const Navbar = () => {
                                             delay: 0.4
                                         }
                                     }}
-                                    href="#contact" className='flex-menu-btn'> Contact Us</motion.a>
+                                    href="#contact_us" className='flex-menu-btn'> Contact Us</motion.a>
                             </div>
                         </motion.div>
                     )

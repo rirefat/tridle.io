@@ -61,16 +61,17 @@ $border: #EEEEEC;
             align-items: center;
             gap: 0.5rem;
 
-            &:nth-child(1){
+            &:nth-child(1) {
                 color: $text-highlighted;
                 background-color: $bg-secondary;
             }
-            &:nth-child(2){
+
+            &:nth-child(2) {
                 color: #000;
                 background-color: $text-highlighted;
             }
 
-            &:hover{
+            &:hover {
                 transform: translateY(-5px);
                 border: 1px solid rgba(208, 213, 221, 0.15);
                 background-color: #1C1D18;
@@ -82,16 +83,16 @@ $border: #EEEEEC;
 
 
 @media screen and (max-width: 1285px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 4rem;
         }
 
-        p{
+        p {
             font-size: 1.2rem;
         }
 
-        button{
+        button {
             padding: 15px 35px !important;
             width: 16.5rem !important;
             height: 4rem !important;
@@ -101,17 +102,17 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 1066px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 3.5rem;
         }
 
-        p{
+        p {
             font-size: 1rem;
             margin: 2.5rem 8rem !important;
         }
 
-        button{
+        button {
             padding: 15px 30px;
             width: 18rem !important;
             height: 3.5rem !important;
@@ -121,17 +122,17 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 960px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 3rem;
         }
 
-        p{
+        p {
             margin: 2.2rem 8rem !important;
             line-height: 1.8rem !important;
         }
 
-        button{
+        button {
             padding: 15px 30px;
             width: 15rem !important;
             height: 3.5rem !important;
@@ -141,25 +142,25 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 850px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 2.8rem;
         }
     }
 }
 
 @media screen and (max-width: 805px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 2.6rem;
         }
 
-        p{
+        p {
             margin: 2.2rem 5rem !important;
             line-height: 1.8rem !important;
         }
 
-        button{
+        button {
             padding: 15px 30px;
             width: 14rem !important;
             height: 3.5rem !important;
@@ -168,18 +169,25 @@ $border: #EEEEEC;
     }
 }
 
+@media screen and (max-width: 725px) {
+    .hero-section {
+        padding: 3rem 4rem !important;
+    }
+}
+
 @media screen and (max-width: 765px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 2.4rem;
         }
 
-        p{
+        p {
             margin: 2rem 5rem !important;
             line-height: 1.8rem !important;
+            margin: 2rem 3rem !important;
         }
 
-        button{
+        button {
             padding: 15px 30px;
             width: 14rem !important;
             height: 3.5rem !important;
@@ -187,19 +195,26 @@ $border: #EEEEEC;
         }
     }
 }
+
+@media screen and (max-width: 630px) {
+    .hero-section {
+        padding: 2.5rem 3.8rem !important;
+    }
+}
+
 @media screen and (max-width: 570px) {
-    .hero-section{
-        h1{
+    .hero-section {
+        h1 {
             font-size: 2rem;
         }
 
-        p{
-            margin: 2rem 5rem !important;
+        p {
+            margin: 2rem !important;
             line-height: 1.8rem !important;
             font-size: 1.3rem !important;
         }
 
-        button{
+        button {
             padding: 15px 30px;
             width: 14rem !important;
             height: 3.5rem !important;
@@ -209,20 +224,42 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 500px) {
-    .hero-section{
-        p{
+    .hero-section {
+        p {
             display: none;
         }
 
-        .call-to-action{
+        .call-to-action {
             margin-top: 2.5rem;
 
-            button{
+            button {
                 padding: 15px 30px;
-                width: 12rem !important;
+                width: 15rem !important;
                 height: 3.5rem !important;
-                font-size: 0.70rem !important;
-            }            
+                font-size: 0.90rem !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero-section {
+        padding: 3.0rem !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero-section {
+        padding: 2rem !important;
+
+        .call-to-action {
+
+            button {
+                padding: 15px 20px;
+                width: 15rem !important;
+                height: 3.5rem !important;
+                font-size: 0.85rem !important;
+            }
         }
     }
 }
