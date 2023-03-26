@@ -192,6 +192,16 @@ $border-secondary: #424242;
         .contact-container {
             padding: 4rem 6rem;
         }
+
+        .contact-info {
+            a {
+                font-size: 1rem !important;
+            }
+
+            p {
+                font-size: 1.2rem !important;
+            }
+        }
     }
 }
 
@@ -215,17 +225,64 @@ $border-secondary: #424242;
                     width: 15rem !important;
                 }
             }
+
+            .contact-info {
+                div {
+                    padding: 16px 10px !important;
+                }
+
+                a {
+                    font-size: 0.9rem !important;
+                }
+
+                p {
+                    font-size: 1.1rem !important;
+                }
+            }
         }
     }
 }
 
-@media screen and (max-width: 730px){
-    .contact{
-        .contact-container{
-            .contact-form{
-                .submit-btn{
+@media screen and (max-width: 730px) {
+    .contact {
+        .contact-container {
+            .contact-form {
+                .submit-btn {
                     width: 12rem !important;
                 }
+            }
+
+            .contact-info {
+                div {
+                    padding: 16px 8px !important;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                }
+
+                p {
+                    font-size: 1.0rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            padding: 0 !important;
+
+            a {
+                font-size: 1.2rem !important;
+            }
+
+            p {
+                font-size: 1.4rem !important;
             }
         }
     }
@@ -235,22 +292,38 @@ $border-secondary: #424242;
     .contact {
         .contact-container {
             padding: 4rem !important;
+
+            .contact-info {
+                // div{
+                //     padding: 12px 8px !important;
+                // }
+                // a{
+                //     font-size: 0.85rem !important;
+                // }
+
+                // p{
+                //     font-size: 1.0rem !important;
+                // }
+            }
         }
     }
 }
+
 @media screen and (max-width: 630px) {
     .contact {
         padding: 0 3.8rem !important;
+
         .contact-container {
             padding: 2rem !important;
         }
     }
 }
+
 @media screen and (max-width: 450px) {
     .contact {
         padding: 0 3.0rem !important;
 
-        .contact-container{
+        .contact-container {
             h3 {
                 font-size: 1.45rem;
                 line-height: 30px;
@@ -259,8 +332,9 @@ $border-secondary: #424242;
             p {
                 font-size: 0.9rem;
             }
-            .contact-form{
-                .submit-btn{
+
+            .contact-form {
+                .submit-btn {
                     width: 10rem !important;
                     font-size: 1.1rem !important;
                 }
@@ -268,13 +342,14 @@ $border-secondary: #424242;
         }
     }
 }
+
 @media screen and (max-width: 360px) {
     .contact {
         padding: 0 2.0rem !important;
 
-        .contact-container{
-            .contact-form{
-                .submit-btn{
+        .contact-container {
+            .contact-form {
+                .submit-btn {
                     width: 10rem !important;
                     font-size: 1rem !important;
                 }
@@ -282,19 +357,31 @@ $border-secondary: #424242;
         }
     }
 }
+
 @media screen and (max-width: 310px) {
     .contact {
         padding: 0 2.0rem !important;
 
-        .contact-container{
-            .contact-form{
-                .submit-btn{
+        .contact-container {
+            .contact-form {
+                .submit-btn {
                     width: 8rem !important;
                     height: 2.9rem !important;
                     font-size: 0.9rem !important;
                 }
             }
+
+            .contact-info{
+                div {        
+                    a {
+                        font-size: 0.8rem !important;
+                    }
+        
+                    p {
+                        font-size: 1.0rem !important;
+                    }
+                }
+            }
         }
     }
 }
-

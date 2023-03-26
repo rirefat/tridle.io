@@ -143,6 +143,12 @@
   .contact .contact-container {
     padding: 4rem 6rem;
   }
+  .contact .contact-info a {
+    font-size: 1rem !important;
+  }
+  .contact .contact-info p {
+    font-size: 1.2rem !important;
+  }
 }
 @media screen and (max-width: 840px) {
   .contact .contact-container {
@@ -159,10 +165,43 @@
     font-size: 1.1rem;
     width: 15rem !important;
   }
+  .contact .contact-container .contact-info div {
+    padding: 16px 10px !important;
+  }
+  .contact .contact-container .contact-info a {
+    font-size: 0.9rem !important;
+  }
+  .contact .contact-container .contact-info p {
+    font-size: 1.1rem !important;
+  }
 }
 @media screen and (max-width: 730px) {
   .contact .contact-container .contact-form .submit-btn {
     width: 12rem !important;
+  }
+  .contact .contact-container .contact-info div {
+    padding: 16px 8px !important;
+  }
+  .contact .contact-container .contact-info a {
+    font-size: 0.8rem;
+  }
+  .contact .contact-container .contact-info p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info div {
+    padding: 0 !important;
+  }
+  .contact-info div a {
+    font-size: 1.2rem !important;
+  }
+  .contact-info div p {
+    font-size: 1.4rem !important;
   }
 }
 @media screen and (max-width: 670px) {
@@ -211,5 +250,11 @@
     width: 8rem !important;
     height: 2.9rem !important;
     font-size: 0.9rem !important;
+  }
+  .contact .contact-container .contact-info div a {
+    font-size: 0.8rem !important;
+  }
+  .contact .contact-container .contact-info div p {
+    font-size: 1rem !important;
   }
 }/*# sourceMappingURL=Contact.css.map */

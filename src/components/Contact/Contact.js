@@ -20,7 +20,7 @@ const Contact = () => {
 
                 <div className="divider">
                     <div className="horizontal-bar"></div>
-                    <p className='or-section'>or contact us</p>
+                    <p className='or-section'>or</p>
                     <div className="horizontal-bar"></div>
                 </div>
 
