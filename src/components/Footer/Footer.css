@@ -80,6 +80,10 @@
 }
 
 @media screen and (max-width: 665px) {
+  p {
+    font-size: 0.8rem !important;
+    line-height: 1.8rem !important;
+  }
   .important-links li {
     padding: 0.5rem !important;
   }
@@ -115,9 +119,17 @@
   .footer {
     padding: 3rem !important;
   }
+  .footer p {
+    font-size: 0.7rem !important;
+    line-height: 1.5rem !important;
+  }
 }
 @media screen and (max-width: 360px) {
   .footer {
     padding: 2rem !important;
+  }
+  .footer p {
+    font-size: 0.6rem !important;
+    line-height: 1.5rem !important;
   }
 }/*# sourceMappingURL=Footer.css.map */
