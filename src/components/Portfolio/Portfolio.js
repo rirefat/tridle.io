@@ -12,7 +12,7 @@ const Portfolio = () => {
     return (
         <div  className='portfolio-section' id='projects'>
             <h3>Works we are proud of</h3>
-            <p>Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022.</p>
+            <p className='sub-title'>Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022.</p>
 
             <div className="sample-container">
                 <div className="left-container">

@@ -16,7 +16,7 @@ const App = () => {
     <div className='container'>
       <Navbar></Navbar>
       <HeroSection></HeroSection>
-      {/* <Portfolio></Portfolio> */}
+      <Portfolio></Portfolio>
       <Services></Services>
       <Testimonial></Testimonial>
       <Contact></Contact>

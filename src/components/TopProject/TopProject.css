@@ -1,3 +1,7 @@
+.top-project-card img {
+  width: 540px;
+  height: 458.87px;
+}
 .top-project-card .meta-data {
   font-family: "Satoshi", sans-serif;
   font-weight: 400;
@@ -6,10 +10,10 @@
   margin-top: 0.5rem;
   padding: 0 !important;
   letter-spacing: 0.05rem;
-  height: 2rem !important;
+  color: #EEEEEC;
 }
 .top-project-card h4 {
-  margin: 0;
+  margin: 0.9rem 0;
   padding: 0;
   color: #BEE329;
   width: 65%;
@@ -23,10 +27,48 @@
 .top-project-card .description {
   font-size: 1rem;
   width: 78%;
+  color: #EEEEEC;
+  line-height: 1.8rem;
 }
 
 @media screen and (max-width: 1450px) {
   .top-project-card img {
     width: 92%;
+  }
+}
+@media screen and (max-width: 1066px) {
+  .top-project-card img {
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 870px) {
+  .top-project-card .meta-data {
+    font-size: 0.7rem !important;
+    line-height: 20px;
+    margin-bottom: 3px !important;
+    padding: 0 !important;
+    letter-spacing: 0.04rem;
+  }
+  .top-project-card h4 {
+    font-size: 1.2rem !important;
+  }
+  .top-project-card .description {
+    font-size: 0.8rem;
+    width: 78%;
+    color: #EEEEEC;
+    line-height: 1.6rem;
+  }
+}
+@media screen and (max-width: 735px) {
+  .top-project-card img {
+    width: 100% !important;
+    height: auto;
+  }
+  .top-project-card .description {
+    font-size: 0.8rem;
+    width: 100%;
+    color: #EEEEEC;
+    line-height: 1.6rem;
   }
 }/*# sourceMappingURL=TopProject.css.map */
