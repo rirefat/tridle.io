@@ -5,8 +5,10 @@ import { BsTwitter, BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-
 const Footer = () => {
     return (
         <div className='footer'>
-            <h3>tridle</h3>    
-
+            <h3>Tridle</h3> 
+            <hr />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.</p>   
+            
             <div className="important-links">
                 <ul>
                     <li><a href="#"></a>Services</li>
