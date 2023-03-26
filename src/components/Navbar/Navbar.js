@@ -4,6 +4,7 @@ import logo from '../../images/logo.png';
 import { motion, AnimatePresence } from "framer-motion";
 import { BiMenuAltRight } from 'react-icons/bi';
 import { MdClose } from 'react-icons/md';
+import { useNavigate } from 'react-router';
 
 const Navbar = () => {
     // State control for opening flex menu
@@ -25,6 +26,9 @@ const Navbar = () => {
             }
         }
     }
+
+    // Navigation to home function
+   
 
     return (
         <div className='navbar'>
