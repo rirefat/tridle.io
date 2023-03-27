@@ -6,7 +6,7 @@ import { BiLeftArrowAlt,BiRightArrowAlt } from 'react-icons/bi';
 
 const Testimonial = () => {
     return (
-        <div className='testimonial'>
+        <div className='testimonial' id='testimonial'>
             <h3>Our Client Says</h3>
 
             <div className="testimonial-container">

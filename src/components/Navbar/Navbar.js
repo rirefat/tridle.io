@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BiMenuAltRight } from 'react-icons/bi';
 import { MdClose } from 'react-icons/md';
 import { useNavigate } from 'react-router';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     // State control for opening flex menu
@@ -31,22 +31,22 @@ const Navbar = () => {
     // Link Navigation function
     const navigate=useNavigate();
     const handleNavigate=(destination)=>{
-        navigate(`/${destination}`)
+        navigate(`${destination}`)
     }
    
 
     return (
         <div className='navbar'>
-            <img src={logo} alt="Logo" onClick={()=>{handleNavigate('home')}}/>
+            <img src={logo} alt="Logo" onClick={()=>{handleNavigate('/home')}}/>
 
             <div className="nav-menu">
                 <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><Link to={"/home/#services"}>Services</Link></li>
+                    <li><Link to={"/home/#projects"}>Projects</Link></li>
+                    <li><Link to={"/home/#about"}>About</Link></li>                    
                 </ul>
             </div>
-            <button >Contact Us</button>
+            <li><Link to={"/home/#contact_us"}><button>Contact Us</button></Link></li>
 
             <div className="toggle-btn" onClick={toggleMenu}>
                 {

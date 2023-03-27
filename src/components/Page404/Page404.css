@@ -1,0 +1,17 @@
+.page-404 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Satoshi", sans-serif;
+}
+.page-404 h2 {
+  color: #BEE329;
+  font-size: 4.5rem;
+  margin: 2rem 0;
+}
+.page-404 p {
+  color: #98A2B3;
+  font-size: 1.8rem;
+}/*# sourceMappingURL=Page404.css.map */

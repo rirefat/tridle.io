@@ -1,0 +1,32 @@
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$input-bg: rgba(249, 252, 234, 0.15);
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$footer-text: #98A2B3;
+$border: #EEEEEC;
+$border-secondary: #424242;
+
+.page-404{
+    width: 100%;
+    // height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: $font-family-primary;
+
+    h2{
+        color: $text-highlighted;
+        font-size: 4.5rem;
+        margin: 2rem 0;
+    }
+
+    p{
+        color: #98A2B3;
+        font-size: 1.8rem;
+    }
+}

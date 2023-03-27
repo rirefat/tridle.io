@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { BsTwitter, BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 import { useNavigate } from 'react-router';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Footer = () => {
     // Link Navigation function
@@ -19,13 +19,13 @@ const Footer = () => {
             
             <div className="important-links">
                 <ul>
-                    <li><Link to={'#'}></Link>Services</li>
-                    <li><Link to={'#'}></Link>Features</li>
-                    <li><Link to={'#'}></Link>Testimonial</li>
-                    <li><Link to={'#'}></Link>About</li>
-                    <li><Link to={'#'}></Link>Career</li>
-                    <li><Link to={'#'}></Link>FAQs</li>
-                    <li><Link to={'#'}></Link>Contact</li>
+                    <li><a href="/home/#services">Services</a></li>
+                    <li><Link to={'/home/#features'}>Features</Link></li>
+                    <li><Link to={'/home/#testimonial'}>Testimonial</Link></li>
+                    <li><Link to={'/home/#about'}>About</Link></li>
+                    <li><Link to={'/home/#career'}>Career</Link></li>
+                    <li><Link to={'/home/#faqs'}>FAQs</Link></li>
+                    <li><Link to={'/home/#contact_us'}>Contact</Link></li>
                 </ul>
             </div>   
 

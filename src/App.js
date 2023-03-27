@@ -11,6 +11,7 @@ import {
 import { FiArrowUpCircle } from 'react-icons/fi';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import Page404 from './components/Page404/Page404';
 
 const App = () => {
 
@@ -26,7 +27,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        {/* <Route path='*' element={<Home></Home>}></Route> */}
+        <Route path='*' element={<Page404></Page404>}></Route>
       </Routes>
       {/* <Home></Home> */}
       {/* <RouterProvider router={router} /> */}

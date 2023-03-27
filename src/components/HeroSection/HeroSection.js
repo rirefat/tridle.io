@@ -18,7 +18,7 @@ const HeroSection = () => {
 
             <div className="call-to-action">
                 <button className="watch"><AiOutlinePlayCircle></AiOutlinePlayCircle>Watch us in action</button>
-                <button className="contact" onClick={()=>{handleNavigate('#contact_us')}}>Get your own website</button>
+                <button className="contact" onClick={()=>{handleNavigate('/home/#contact_us')}}>Get your own website</button>
             </div>
         </div>
     );
