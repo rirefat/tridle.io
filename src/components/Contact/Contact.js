@@ -3,8 +3,13 @@ import './Contact.css';
 import { BsTelephone } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+    //=============================================== Toastify Functionality ===============================================
+    const notify = () => toast("Send message successfully. We'll reach you soon.");
+
     //============================================== Email Sending Functionality ==============================================
     const form = useRef();
 
@@ -18,8 +23,10 @@ const Contact = () => {
                 console.log(error.text);
             });
             e.target.reset();
+            notify();
     };
-    return (
+    
+        return (
         <div className='contact' id='contact_us'>
             <div className="contact-container">
                 <h3>Ready to get your own awesome website?</h3>
@@ -31,7 +38,8 @@ const Contact = () => {
                     {/* <input type="text" name="project-description" id="project_description" placeholder='Tell us briefly about your project/company (optional)'/> */}
                     <textarea name="project_description" id="project_description" placeholder='Tell us briefly about your project/company (optional)'></textarea>
 
-                    <input type="submit" value="Send Message" className='submit-btn' />
+                    <input type="submit" value="Send Message" className='submit-btn'/>
+                    
                 </form>
 
                 <div className="divider">
@@ -51,6 +59,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };

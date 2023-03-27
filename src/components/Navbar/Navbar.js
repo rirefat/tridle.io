@@ -27,7 +27,11 @@ const Navbar = () => {
         }
     }
 
-    // Navigation to home function
+    // Link Navigation function
+    // const navigate=useNavigate();
+    // const linkNavigation=()=>{
+    //     navigate('/contact_us')
+    // }
    
 
     return (
@@ -41,7 +45,7 @@ const Navbar = () => {
                     <li><a href="#about">About</a></li>
                 </ul>
             </div>
-            <button>Contact Us</button>
+            <button >Contact Us</button>
 
             <div className="toggle-btn" onClick={toggleMenu}>
                 {
