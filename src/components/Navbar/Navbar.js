@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { BiMenuAltRight } from 'react-icons/bi';
 import { MdClose } from 'react-icons/md';
 import { useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     // State control for opening flex menu
@@ -40,6 +41,7 @@ const Navbar = () => {
 
             <div className="nav-menu">
                 <ul>
+                    {/* <li><Link to={"#services"}>Services</Link></li> */}
                     <li><a href="#services">Services</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About</a></li>

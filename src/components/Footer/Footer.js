@@ -11,7 +11,7 @@ const Footer = () => {
             
             <div className="important-links">
                 <ul>
-                    <li><a href="#"></a>Services</li>
+                    <li><a href="#services"></a>Services</li>
                     <li><a href="#"></a>Features</li>
                     <li><a href="#"></a>Testimonial</li>
                     <li><a href="#"></a>About</li>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <li><a target="_blank" href="http://www.linkedin.com/company/tridle-io"><BsLinkedin></BsLinkedin></a></li>
                         <li><a target="_blank" href="https://www.facebook.com/tridle.io"><BsFacebook></BsFacebook></a></li>
                         <li><a target="_blank" href="http://instagram.com/tridle.io"><BsInstagram></BsInstagram></a></li>
-                        <li><a target="_blank" href="#"><BsGithub></BsGithub></a></li>
+                        <li><a target="_blank" href="https://github.com/tridle-io"><BsGithub></BsGithub></a></li>
                     </ul>
                 </div>
             </div>     
