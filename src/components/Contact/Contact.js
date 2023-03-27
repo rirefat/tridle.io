@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Contact.css';
 import { BsTelephone } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    //============================================== Email Sending Functionality ==============================================
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail_tridle', 'template_kbdq15t', form.current, 'VC2DNe5s--dtwpboJ')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset();
+    };
     return (
         <div className='contact' id='contact_us'>
             <div className="contact-container">
                 <h3>Ready to get your own awesome website?</h3>
                 <p>Give us your phone number/email, and we will contact you to discuss the project</p>
 
-                <form className='contact-form'>
-                    <input type="text" name="email-phone" id="email_phone" placeholder='* Phone/ Email' required/>
+                {/*============================================== Contact Form ==============================================*/}
+                <form className='contact-form' ref={form} onSubmit={sendEmail}>
+                    <input type="text" name="email-phone" id="email_phone" placeholder='* Phone/ Email' required />
                     {/* <input type="text" name="project-description" id="project_description" placeholder='Tell us briefly about your project/company (optional)'/> */}
                     <textarea name="project_description" id="project_description" placeholder='Tell us briefly about your project/company (optional)'></textarea>
 
-                    <input type="submit" value="Send Message" className='submit-btn'/>
+                    <input type="submit" value="Send Message" className='submit-btn' />
                 </form>
 
                 <div className="divider">
