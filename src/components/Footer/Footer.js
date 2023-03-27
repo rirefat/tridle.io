@@ -1,8 +1,16 @@
 import React from 'react';
 import './Footer.css';
 import { BsTwitter, BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
+import { useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    // Link Navigation function
+    const navigate=useNavigate();
+    const handleNavigate=(destination)=>{
+        navigate(`${destination}`)
+    }
+
     return (
         <div className='footer'>
             <h3>Tridle</h3> 
@@ -11,13 +19,13 @@ const Footer = () => {
             
             <div className="important-links">
                 <ul>
-                    <li><a href="#services"></a>Services</li>
-                    <li><a href="#"></a>Features</li>
-                    <li><a href="#"></a>Testimonial</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="#"></a>Career</li>
-                    <li><a href="#"></a>FAQs</li>
-                    <li><a href="#"></a>Contact</li>
+                    <li><Link to={'#'}></Link>Services</li>
+                    <li><Link to={'#'}></Link>Features</li>
+                    <li><Link to={'#'}></Link>Testimonial</li>
+                    <li><Link to={'#'}></Link>About</li>
+                    <li><Link to={'#'}></Link>Career</li>
+                    <li><Link to={'#'}></Link>FAQs</li>
+                    <li><Link to={'#'}></Link>Contact</li>
                 </ul>
             </div>   
 
@@ -25,11 +33,11 @@ const Footer = () => {
                 <div className="copyright-text">© Tridle | All rights reserved.</div>
                 <div className="social-links">
                     <ul>
-                        <li><a target="_blank" href="#"><BsTwitter></BsTwitter></a></li>
-                        <li><a target="_blank" href="http://www.linkedin.com/company/tridle-io"><BsLinkedin></BsLinkedin></a></li>
-                        <li><a target="_blank" href="https://www.facebook.com/tridle.io"><BsFacebook></BsFacebook></a></li>
-                        <li><a target="_blank" href="http://instagram.com/tridle.io"><BsInstagram></BsInstagram></a></li>
-                        <li><a target="_blank" href="https://github.com/tridle-io"><BsGithub></BsGithub></a></li>
+                        <li><Link target="_blank" to={'#'}><BsTwitter></BsTwitter></Link></li>
+                        <li><Link target="_blank" to={'http://www.linkedin.com/company/tridle-io'}><BsLinkedin></BsLinkedin></Link></li>
+                        <li><Link target="_blank" to={"https://www.facebook.com/tridle.io"}><BsFacebook></BsFacebook></Link></li>
+                        <li><Link target="_blank" to={"http://instagram.com/tridle.io"}><BsInstagram></BsInstagram></Link></li>
+                        <li><Link target="_blank" to={"https://github.com/tridle-io"}><BsGithub></BsGithub></Link></li>
                     </ul>
                 </div>
             </div>     

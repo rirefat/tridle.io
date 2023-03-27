@@ -2,8 +2,15 @@ import React from 'react';
 import './HeroSection.css';
 
 import { AiOutlinePlayCircle } from 'react-icons/ai';
+import { useNavigate } from 'react-router';
 
 const HeroSection = () => {
+    // Link Navigation function
+    const navigate=useNavigate();
+    const handleNavigate=(destination)=>{
+        navigate(`${destination}`)
+    }
+
     return (
         <div className='hero-section'>
             <h1>We create the most <span className="highlighted">delightful</span> website for your brand</h1>
@@ -11,7 +18,7 @@ const HeroSection = () => {
 
             <div className="call-to-action">
                 <button className="watch"><AiOutlinePlayCircle></AiOutlinePlayCircle>Watch us in action</button>
-                <button className="contact">Get your own website</button>
+                <button className="contact" onClick={()=>{handleNavigate('#contact_us')}}>Get your own website</button>
             </div>
         </div>
     );

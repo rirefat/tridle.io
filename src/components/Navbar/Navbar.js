@@ -29,19 +29,18 @@ const Navbar = () => {
     }
 
     // Link Navigation function
-    // const navigate=useNavigate();
-    // const linkNavigation=()=>{
-    //     navigate('/contact_us')
-    // }
+    const navigate=useNavigate();
+    const handleNavigate=(destination)=>{
+        navigate(`/${destination}`)
+    }
    
 
     return (
         <div className='navbar'>
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" onClick={()=>{handleNavigate('home')}}/>
 
             <div className="nav-menu">
                 <ul>
-                    {/* <li><Link to={"#services"}>Services</Link></li> */}
                     <li><a href="#services">Services</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About</a></li>
