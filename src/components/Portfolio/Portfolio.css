@@ -23,6 +23,7 @@
 .portfolio-section .sample-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 0rem;
 }
 .portfolio-section .sample-container .right-container {
   display: grid;

@@ -6,6 +6,7 @@ $text-primary: #EEEEEC;
 $text-secondary: rgba(248, 252, 234, 1);
 $text-highlighted: #BEE329;
 $border: #EEEEEC;
+$bg-hover: rgba(255, 255, 255, 0.1);
 
 .portfolio-section {
     background-color: $bg-secondary;
@@ -34,7 +35,7 @@ $border: #EEEEEC;
     .sample-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        // gap: 2rem;
+        gap: 0rem;
 
         .right-container {
             display: grid;

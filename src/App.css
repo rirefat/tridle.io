@@ -1,3 +1,15 @@
+/* 
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$border: #EEEEEC;
+$bg-hover: rgba(255, 255, 255, 0.1);
+ */
+
 *{
   margin: 0;
   padding: 0;

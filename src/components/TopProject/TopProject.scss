@@ -8,6 +8,9 @@ $text-highlighted: #BEE329;
 $border: #EEEEEC;
 
 .top-project-card {
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 1rem;
     img {
         width: 540px;
         height: 458.87px;
@@ -35,6 +38,7 @@ $border: #EEEEEC;
         &:hover {
             color: #a3ca07;
             text-decoration: underline;
+            
         }
     }
 
@@ -43,6 +47,11 @@ $border: #EEEEEC;
         width: 78%;
         color: $text-primary;
         line-height: 1.8rem;
+    }
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
     }
 }
 

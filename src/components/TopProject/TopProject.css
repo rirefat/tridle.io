@@ -1,3 +1,8 @@
+.top-project-card {
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 1rem;
+}
 .top-project-card img {
   width: 540px;
   height: 458.87px;
@@ -29,6 +34,10 @@
   width: 78%;
   color: #EEEEEC;
   line-height: 1.8rem;
+}
+.top-project-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1450px) {
