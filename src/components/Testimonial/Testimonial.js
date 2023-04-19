@@ -1,41 +1,85 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Testimonial.css';
 import client1 from '../../images/clients/Avatar.png'
 import { BsFillStarFill } from 'react-icons/bs';
-import { BiLeftArrowAlt,BiRightArrowAlt } from 'react-icons/bi';
+import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
+import { CSSTransition, SwitchTransition } from 'react-transition-group';
 
 const Testimonial = () => {
+    const [testimonials, setTestimonials] = useState([]);
+    const [activeIndex, setActiveIndex] = useState(0);
+    useEffect(() => {
+        fetch('testimonials.json')
+            .then(res => res.json())
+            .then(data => setTestimonials(data))
+    }, []);
+    console.log(testimonials);
+
+    const activeSlide = testimonials[activeIndex];
+    console.log(activeSlide);
+
+    const handlePrev =()=>{
+        if(activeIndex === 0){
+            setActiveIndex(testimonials.length - 1)
+        }
+        else{
+            setActiveIndex((oldIndex)=> oldIndex - 1);
+        }
+    }
+
+    const handleNext =()=>{
+        if(activeIndex >= testimonials.length - 1){
+            setActiveIndex(0);
+        }
+        else{
+            setActiveIndex((oldIndex)=> oldIndex + 1);
+        }
+    }
+
     return (
         <div className='testimonial' id='testimonial'>
             <h3>Our Client Says</h3>
 
             <div className="testimonial-container">
-                <div className="ratings">
-                    <span className="star"><BsFillStarFill></BsFillStarFill></span>
-                    <span className="star"><BsFillStarFill></BsFillStarFill></span>
-                    <span className="star"><BsFillStarFill></BsFillStarFill></span>
-                    <span className="star"><BsFillStarFill></BsFillStarFill></span>
-                    <span className="star"><BsFillStarFill></BsFillStarFill></span>
-                </div>
-                <div className="comments">
-                    Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022. We have a sole objective to improve digital transformation by strategically improving digital education and Building IT Solution for corporate organization in Nigeria.
-                </div>
-                <div className="bottom-section">
-                    <div className="author">
-                        <img src={client1} alt="" />
-                        <div className="details">
-                            <p className="name">Katherine Moss</p>
-                            <p className="designation">Project Manager, Layers</p>
+                <SwitchTransition>
+                    <CSSTransition>
+                        <div className="testimonial-info">
+                            <div className="comments">
+                                <p>{activeSlide?.desc}</p>
+                            </div>
+                            <div className='bottom-section'>
+                                <div className="author">
+                                    <img src={client1} alt="" />
+                                    <div>
+                                        <h2 className="name">{activeSlide?.name}</h2>
+                                        <p className='designation'>{activeSlide?.title}</p>
+                                    </div>
+                                </div>
+                                <div className="pagination">
+                                    <div
+                                        className="left prev"
+                                        onClick={handlePrev}
+                                        role='button'
+                                        tabIndex={0}
+                                        onKeyDown={handlePrev}
+                                    ><BiLeftArrowAlt></BiLeftArrowAlt></div>
+                                    <div
+                                        className="right next"
+                                        onClick={handleNext}
+                                        role='button'
+                                        tabIndex={0}
+                                        onKeyDown={handleNext}
+                                    ><BiRightArrowAlt></BiRightArrowAlt></div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className="pagination">
-                        <div className="left"><BiLeftArrowAlt></BiLeftArrowAlt></div>
-                        <div className="right"><BiRightArrowAlt></BiRightArrowAlt></div>
-                    </div>
-                </div>
+                    </CSSTransition>
+                </SwitchTransition>
             </div>
         </div>
     );
 };
 
 export default Testimonial;
+
+// Final

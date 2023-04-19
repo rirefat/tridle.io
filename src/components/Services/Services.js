@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div className='services-section' id='services'>
             <h3>Our Services</h3>
-            <p>Here at Tridle we focus on markets where technology & capital can unlock long-term value and drive economic growth.</p>
+            <p>We ensure that our clients are satisfied with a big smile. We design, develop, test and get your project done. To establish a striking, memorable and impactful digital presence just give us a knock.</p>
             <div className="services-container">
                 <div className="ui-ux">
                     <h4>UI/UX Design</h4>
