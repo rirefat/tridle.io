@@ -32,7 +32,13 @@
   gap: 0.8rem;
   flex-wrap: wrap;
 }
-.hero-section .call-to-action button {
+.hero-section .call-to-action a {
+  text-decoration: none;
+}
+.hero-section .call-to-action a button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px 40px;
   text-align: center;
   border-radius: 12px;
@@ -40,7 +46,7 @@
   width: 287px;
   height: 67px;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
@@ -48,20 +54,20 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-}
-.hero-section .call-to-action button:nth-child(1) {
-  color: #BEE329;
-  background-color: rgb(28, 29, 24);
-}
-.hero-section .call-to-action button:nth-child(2) {
   color: #000;
   background-color: #BEE329;
 }
-.hero-section .call-to-action button:hover {
-  transform: translateY(-5px);
+.hero-section .call-to-action a button .btn-icon {
+  font-size: 1.5rem;
+  display: none;
+  transition: 0.5s display;
+}
+.hero-section .call-to-action a button:hover {
   border: 1px solid rgba(208, 213, 221, 0.15);
-  background-color: #1C1D18;
-  color: #EEEEEC;
+  background-color: #92b603;
+}
+.hero-section .call-to-action a button:hover .btn-icon {
+  display: block;
 }
 
 @media screen and (max-width: 1285px) {

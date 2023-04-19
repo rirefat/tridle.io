@@ -44,38 +44,57 @@ $border: #EEEEEC;
         gap: 0.8rem;
         flex-wrap: wrap;
 
-        button {
-            padding: 20px 40px;
-            text-align: center;
-            border-radius: 12px;
-            border: 1px solid transparent;
-            width: 287px;
-            height: 67px;
-            box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-            font-size: 1.2rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: 0.3s;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.5rem;
-
-            &:nth-child(1) {
-                color: $text-highlighted;
-                background-color: $bg-secondary;
-            }
-
-            &:nth-child(2) {
+        a {
+            text-decoration: none;
+            
+            button {
+                display: flex ;
+                justify-content: center ;
+                align-items: center ;
+                padding: 20px 40px;
+                text-align: center;
+                border-radius: 12px;
+                border: 1px solid transparent;
+                width: 287px;
+                height: 67px;
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                font-size: 1rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: 0.3s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
                 color: #000;
                 background-color: $text-highlighted;
-            }
 
-            &:hover {
-                transform: translateY(-5px);
-                border: 1px solid rgba(208, 213, 221, 0.15);
-                background-color: #1C1D18;
-                color: $text-primary;
+                .btn-icon{
+                    font-size: 1.5rem;
+                    display: none;
+                    transition: 0.5s display;
+                }
+
+                // &:nth-child(1) {
+                //     color: $text-highlighted;
+                //     background-color: $bg-secondary;
+                // }
+
+                // &:nth-child(2) {
+                //     color: #000;
+                //     background-color: $text-highlighted;
+                // }
+
+                &:hover {
+                    // transform: translateY(-5px);
+                    border: 1px solid rgba(208, 213, 221, 0.15);
+                    background-color: #92b603;
+                    // color: $text-primary;
+                }
+
+                &:hover .btn-icon{
+                    display: block;
+                }
             }
         }
     }
