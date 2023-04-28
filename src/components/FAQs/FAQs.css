@@ -11,33 +11,60 @@
   letter-spacing: 0em;
   text-align: left;
   color: #BEE329;
+  margin-bottom: 3rem;
 }
 .faq-section .single-accordion {
   margin-bottom: 1rem;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items: start;
   border-bottom: 1px solid #333333;
   padding: 1rem 0;
 }
 .faq-section .single-accordion .main-faq {
   width: 98%;
 }
-.faq-section .vertical {
+.faq-section .faq-title, .faq-section .vertical {
   color: white;
   font-size: 1.5rem;
-}
-.faq-section .faq-title {
-  color: white;
-  font-size: 1.8rem;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 .faq-section .faq-desc {
   color: #9D9D9D;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .faq-section .active-accordion {
   display: block;
 }
 .faq-section .inactive-accordion {
   display: none;
+}
+
+@media screen and (max-width: 666px) {
+  .faq-section .faq-title p {
+    font-size: 1.3rem !important;
+  }
+  .faq-section .vertical {
+    font-size: 1.3rem !important;
+  }
+  .faq-section .faq-desc {
+    color: #9D9D9D;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (max-width: 435px) {
+  .faq-section .faq-title p {
+    font-size: 1rem !important;
+  }
+  .faq-section .vertical {
+    font-size: 1rem !important;
+  }
+  .faq-section .faq-desc {
+    color: #9D9D9D;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }/*# sourceMappingURL=FAQs.css.map */
