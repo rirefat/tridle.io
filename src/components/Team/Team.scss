@@ -1,0 +1,91 @@
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$border: #EEEEEC;
+
+.team-section {
+    background-color: #1C1D18;
+    padding: 8rem;
+
+    h3 {
+        font-family: $font-family-primary;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text-highlighted;
+    }
+
+    .subtitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300 !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: $border;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .team-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3.0rem;
+        margin-top: 5.5rem;
+
+        .team-member {
+            text-align: center;
+            width: 15rem;
+            padding: 1rem 0;
+            border-radius: 16px;
+
+            img {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+
+            .person-name {
+                color: white;
+                font-style: 1.4rem;
+                margin-bottom: 5px;
+            }
+
+            .person-designation {
+                color: #CCCCCC;
+                font-size: 1rem;
+            }
+
+            .social-links {
+                margin: 1rem 0;
+                visibility: hidden;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 0.4rem;
+                    font-size: 1.2rem;
+
+                    &:hover{
+                        color: $text-highlighted;
+                    }
+                }
+            }
+
+            &:hover{
+                background-color: #000;
+            }
+
+            &:hover .social-links{
+                visibility: visible;
+            }
+        }
+    }
+}

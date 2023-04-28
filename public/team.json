@@ -1,0 +1,46 @@
+[
+    {
+        "username": "rirefat",
+        "name": "Rafiul Islam",
+        "designation": "Chief Developer",
+        "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+        "socials":{
+            "facebook":"facebook.com",
+            "twitter":"facebook.com",
+            "linkedin":"facebook.com"
+        }
+    },
+    {
+        "username": "",
+        "name": "Tamim Bro",
+        "designation": "Chief Editor & Strategist",
+        "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+        "socials":{
+            "facebook":"facebook.com",
+            "twitter":"facebook.com",
+            "linkedin":"facebook.com"
+        }
+    },
+    {
+        "username": "salamun.koulam",
+        "name": "Salamun Koulam",
+        "designation": "Chief Designer",
+        "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+        "socials":{
+            "facebook":"https://www.facebook.com/salamun.koulam",
+            "twitter":"facebook.com",
+            "linkedin":"facebook.com"
+        }
+    },
+    {
+        "username": "tf.abir",
+        "name": "Tanvir Fuad Abir",
+        "designation": "Chief Marketing Officer",
+        "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+        "socials":{
+            "facebook":"https://www.facebook.com/TF.ABIR",
+            "twitter":"facebook.com",
+            "linkedin":"facebook.com"
+        }
+    }
+]
