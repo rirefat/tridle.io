@@ -2,45 +2,45 @@
     {
         "username": "rirefat",
         "name": "Rafiul Islam",
-        "designation": "Chief Developer",
+        "designation": "Developer",
         "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
         "socials":{
             "facebook":"facebook.com",
             "twitter":"facebook.com",
-            "linkedin":"facebook.com"
+            "linkedin":"https://www.linkedin.com/in/rirefat/"
         }
     },
     {
-        "username": "",
-        "name": "Tamim Bro",
-        "designation": "Chief Editor & Strategist",
+        "username": "tamim",
+        "name": "Md Jannatul Nayeem Tamim",
+        "designation": "Editor & Strategist",
         "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
         "socials":{
             "facebook":"facebook.com",
-            "twitter":"facebook.com",
-            "linkedin":"facebook.com"
+            "twitter":"twitter.com",
+            "linkedin":"https://www.linkedin.com/in/md-jannatul-nayeem"
         }
     },
     {
         "username": "salamun.koulam",
         "name": "Salamun Koulam",
-        "designation": "Chief Designer",
+        "designation": "Designer",
         "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
         "socials":{
             "facebook":"https://www.facebook.com/salamun.koulam",
             "twitter":"facebook.com",
-            "linkedin":"facebook.com"
+            "linkedin":"https://www.linkedin.com/in/salamun-kawlam"
         }
     },
     {
         "username": "tf.abir",
         "name": "Tanvir Fuad Abir",
-        "designation": "Chief Marketing Officer",
+        "designation": "Marketing Officer",
         "img":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
         "socials":{
             "facebook":"https://www.facebook.com/TF.ABIR",
-            "twitter":"facebook.com",
-            "linkedin":"facebook.com"
+            "twitter":"twitter.com",
+            "linkedin":"https://www.linkedin.com/in/tf-abir"
         }
     }
 ]

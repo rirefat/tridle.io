@@ -27,9 +27,9 @@ const Team = () => {
                             <p className='person-designation'>{person.designation}</p>
 
                             <div className="social-links">
-                                <Link to={'facebook.com'}><RiFacebookCircleLine></RiFacebookCircleLine></Link>
-                                <Link to={'facebook.com'}><TbBrandTwitter></TbBrandTwitter></Link>
-                                <Link to={'facebook.com'}><AiOutlineLinkedin></AiOutlineLinkedin></Link>
+                                <Link to={person.socials.facebook}><RiFacebookCircleLine></RiFacebookCircleLine></Link>
+                                <Link to={person.socials.twitter}><TbBrandTwitter></TbBrandTwitter></Link>
+                                <Link to={person.socials.linkedin}><AiOutlineLinkedin></AiOutlineLinkedin></Link>
                             </div>
                         </div>
                     ))

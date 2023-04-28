@@ -4,20 +4,20 @@ import { BsChevronDown,BsChevronUp } from 'react-icons/bs';
 
 const faqData = [
     {
-        question: 'This is the question',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fuga explicabo libero quae quidem accusamus provident laudantium harum velit, nesciunt dicta, assumenda aspernatur rem! Repudiandae expedita nam doloribus ullam sunt.'
+        question: 'What is the expense of a brand-new website?',
+        answer: "Website development is a customizable work. We design according to the requirement of the clients. Given the client's approach and the demand, our team will do the primary work. Then we can give you the basic idea of costing. So, now you know that it varies."
     },
     {
-        question: 'This is the question',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fuga explicabo libero quae quidem accusamus provident laudantium harum velit, nesciunt dicta, assumenda aspernatur rem! Repudiandae expedita nam doloribus ullam sunt.'
+        question: 'How long does it take to build a website?',
+        answer: 'For basic information websites with limited functionality, we often take one to three weeks starting from scratch till the end. But again, it can vary depending on the particular project.'
     },
     {
-        question: 'This is the question',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fuga explicabo libero quae quidem accusamus provident laudantium harum velit, nesciunt dicta, assumenda aspernatur rem! Repudiandae expedita nam doloribus ullam sunt.'
+        question: 'Will you provide maintenance service for my site?',
+        answer: 'Like anything, a website also needs care. Routine maintenance can be very vital for a smooth-going website. It can ensure the website’s security, traffic and so on. So, our team would love to help you with any support based on the situation.'
     },
     {
-        question: 'This is the question',
-        answer: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fuga explicabo libero quae quidem accusamus provident laudantium harum velit, nesciunt dicta, assumenda aspernatur rem! Repudiandae expedita nam doloribus ullam sunt.'
+        question: 'Once the website is built, can I update or edit it myself?',
+        answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
     }
 ];
 
