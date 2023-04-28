@@ -37,7 +37,7 @@ $border: #EEEEEC;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 3.0rem;
+        gap: 1rem;
         margin-top: 5.5rem;        
 
         .team-member {
@@ -51,6 +51,7 @@ $border: #EEEEEC;
                 width: 120px;
                 height: 120px;
                 border-radius: 50%;
+                margin: 1rem 0;
             }
 
             .person-name {
