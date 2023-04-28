@@ -34,6 +34,7 @@
   width: 15rem;
   padding: 1rem 0;
   border-radius: 16px;
+  transition: background-color 0.8s;
 }
 .team-section .team-container .team-member img {
   width: 120px;
@@ -52,6 +53,7 @@
 .team-section .team-container .team-member .social-links {
   margin: 1rem 0;
   visibility: hidden;
+  transition: visibility 0.8s;
 }
 .team-section .team-container .team-member .social-links a {
   text-decoration: none;

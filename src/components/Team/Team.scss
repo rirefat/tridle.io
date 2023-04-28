@@ -38,13 +38,14 @@ $border: #EEEEEC;
         align-items: center;
         flex-wrap: wrap;
         gap: 3.0rem;
-        margin-top: 5.5rem;
+        margin-top: 5.5rem;        
 
         .team-member {
             text-align: center;
             width: 15rem;
             padding: 1rem 0;
             border-radius: 16px;
+            transition: background-color 0.8s;
 
             img {
                 width: 120px;
@@ -66,6 +67,7 @@ $border: #EEEEEC;
             .social-links {
                 margin: 1rem 0;
                 visibility: hidden;
+                transition: visibility 0.8s;
 
                 a {
                     text-decoration: none;
