@@ -13,9 +13,9 @@ const Footer = () => {
 
     return (
         <div className='footer'>
-            <h3>Tridle</h3> 
+            <h3 id='about'>Tridle</h3> 
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.</p>   
+            <p>Tridle is a web design & development agency run by a bunch of young and enthusiastic professionals. Baking numerous ideas with proper implementation, we ensure that our clients are satisfied with a big smile. We design, develop, test and get your project done. To establish a striking, memorable and impactful digital presence just give us a knock. Tell us about your dream project and we will handle the rest.</p>   
             
             <div className="important-links">
                 <ul>
