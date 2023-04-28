@@ -32,7 +32,7 @@ const FAQs = () => {
     }
 
     return (
-        <div className='faq-section'>
+        <div className='faq-section' id='faqs'>
             <h3>FAQs</h3>
             <div className="accordion-container">
                 {

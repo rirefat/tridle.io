@@ -22,8 +22,7 @@ const Footer = () => {
                     <li><a href="/home/#services">Services</a></li>
                     <li><Link to={'/home/#features'}>Features</Link></li>
                     <li><Link to={'/home/#testimonial'}>Testimonial</Link></li>
-                    <li><Link to={'/home/#about'}>About</Link></li>
-                    <li><Link to={'/home/#career'}>Career</Link></li>
+                    {/* <li><Link to={'/home/#career'}>Career</Link></li> */}
                     <li><Link to={'/home/#faqs'}>FAQs</Link></li>
                     <li><Link to={'/home/#contact_us'}>Contact</Link></li>
                 </ul>

@@ -42,6 +42,13 @@ $border: #EEEEEC;
             background-color: $text-highlighted;
             border-radius: 1.5rem;
             padding: 4rem 3rem;
+            position: relative;
+            overflow: hidden;
+            
+            span{
+                position: relative;
+                z-index: 1;
+            }
 
             h4 {
                 font-family: $font-family-primary;
@@ -60,8 +67,26 @@ $border: #EEEEEC;
                 line-height: 24px;
                 color: #000000;
             }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: whitesmoke;
+                transition: transform 0.5s;
+                visibility: hidden;
+            }
+
+            &:hover::before {
+                transform: scale(150);
+                visibility: visible;
+            }
         }
-        
+
         .web-dev {
             color: $text-primary;
             background-color: #9D4EDD;
@@ -90,7 +115,7 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width:1066px) {
-    .services-section{
+    .services-section {
         h3 {
             font-size: 2rem;
         }
@@ -104,7 +129,7 @@ $border: #EEEEEC;
             display: grid;
             grid-template-columns: 1fr !important;
 
-            h4{
+            h4 {
                 font-size: 1.8rem !important;
             }
         }
@@ -112,27 +137,29 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 630px) {
-    .services-section{
+    .services-section {
         padding: 3.8rem !important;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .services-container{
-        .ui-ux, .web-dev{
+    .services-container {
+
+        .ui-ux,
+        .web-dev {
             padding: 2.5rem 1.8rem !important;
         }
     }
 }
 
 @media screen and (max-width:510px) {
-    .services-section{
+    .services-section {
         .services-container {
-            h4{
+            h4 {
                 font-size: 1.6rem !important;
             }
 
-            p{
+            p {
                 font-size: 14px !important;
             }
         }
@@ -140,18 +167,23 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 450px) {
-    .services-section{
+    .services-section {
         padding: 3rem !important;
-        h3,p{
+
+        h3,
+        p {
             text-align: center !important;
         }
 
-        .services-container{
-            h4, p{
+        .services-container {
+
+            h4,
+            p {
                 text-align: center !important;
             }
 
-            .ui-ux, .web-dev{
+            .ui-ux,
+            .web-dev {
                 padding: 2rem 1.5rem !important;
             }
         }
@@ -159,18 +191,23 @@ $border: #EEEEEC;
 }
 
 @media screen and (max-width: 360px) {
-    .services-section{
+    .services-section {
         padding: 2rem !important;
-        h3,p{
+
+        h3,
+        p {
             text-align: center !important;
         }
 
-        .services-container{
-            h4, p{
+        .services-container {
+
+            h4,
+            p {
                 text-align: center !important;
             }
 
-            .ui-ux, .web-dev{
+            .ui-ux,
+            .web-dev {
                 padding: 2rem 1.5rem !important;
             }
         }

@@ -31,6 +31,12 @@
   background-color: #BEE329;
   border-radius: 1.5rem;
   padding: 4rem 3rem;
+  position: relative;
+  overflow: hidden;
+}
+.services-section .services-container .ui-ux span {
+  position: relative;
+  z-index: 1;
 }
 .services-section .services-container .ui-ux h4 {
   font-family: "Satoshi", sans-serif;
@@ -47,6 +53,22 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.services-section .services-container .ui-ux::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  transition: transform 0.5s;
+  visibility: hidden;
+}
+.services-section .services-container .ui-ux:hover::before {
+  transform: scale(150);
+  visibility: visible;
 }
 .services-section .services-container .web-dev {
   color: #EEEEEC;
@@ -93,7 +115,8 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .services-container .ui-ux, .services-container .web-dev {
+  .services-container .ui-ux,
+  .services-container .web-dev {
     padding: 2.5rem 1.8rem !important;
   }
 }
@@ -109,13 +132,16 @@
   .services-section {
     padding: 3rem !important;
   }
-  .services-section h3, .services-section p {
+  .services-section h3,
+  .services-section p {
     text-align: center !important;
   }
-  .services-section .services-container h4, .services-section .services-container p {
+  .services-section .services-container h4,
+  .services-section .services-container p {
     text-align: center !important;
   }
-  .services-section .services-container .ui-ux, .services-section .services-container .web-dev {
+  .services-section .services-container .ui-ux,
+  .services-section .services-container .web-dev {
     padding: 2rem 1.5rem !important;
   }
 }
@@ -123,13 +149,16 @@
   .services-section {
     padding: 2rem !important;
   }
-  .services-section h3, .services-section p {
+  .services-section h3,
+  .services-section p {
     text-align: center !important;
   }
-  .services-section .services-container h4, .services-section .services-container p {
+  .services-section .services-container h4,
+  .services-section .services-container p {
     text-align: center !important;
   }
-  .services-section .services-container .ui-ux, .services-section .services-container .web-dev {
+  .services-section .services-container .ui-ux,
+  .services-section .services-container .web-dev {
     padding: 2rem 1.5rem !important;
   }
 }/*# sourceMappingURL=Services.css.map */
