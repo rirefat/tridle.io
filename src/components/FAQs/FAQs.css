@@ -1,0 +1,43 @@
+.faq-section {
+  max-width: 1440px;
+  background-color: #000;
+  padding: 6rem;
+}
+.faq-section h3 {
+  font-family: "Satoshi", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BEE329;
+}
+.faq-section .single-accordion {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+  padding: 1rem 0;
+}
+.faq-section .single-accordion .main-faq {
+  width: 98%;
+}
+.faq-section .vertical {
+  color: white;
+  font-size: 1.5rem;
+}
+.faq-section .faq-title {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.faq-section .faq-desc {
+  color: #9D9D9D;
+}
+.faq-section .active-accordion {
+  display: block;
+}
+.faq-section .inactive-accordion {
+  display: none;
+}/*# sourceMappingURL=FAQs.css.map */
