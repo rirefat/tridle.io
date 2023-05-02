@@ -6,6 +6,7 @@ import Services from '../Services/Services';
 import Testimonial from '../Testimonial/Testimonial';
 import FAQs from '../FAQs/FAQs';
 import Team from '../Team/Team';
+import WorkProcess from '../WorkProcess/WorkProcess';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <HeroSection></HeroSection>
             <Portfolio></Portfolio>
             <Services></Services>
+            <WorkProcess></WorkProcess>
             <Testimonial></Testimonial>
             {/* <Team></Team> */}
             <FAQs></FAQs>

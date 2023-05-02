@@ -18,7 +18,15 @@ const faqData = [
     {
         question: 'Will you provide maintenance service for my site? ',
         answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
-    }
+    },
+    {
+        question: 'Once the website is live, can I update or edit it myself?',
+        answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
+    },
+    {
+        question: 'Are domain and hosting included? If not, how much will they cost?',
+        answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
+    },
 ];
 
 const FAQs = () => {
@@ -53,9 +61,10 @@ const FAQs = () => {
                             </span>
                         </div>))
                 }
-                <div className="title">Title</div>
-                <div className="desc">Description</div>
+                {/* <div className="title">Title</div>
+                <div className="desc">Description</div> */}
             </div>
+            <p className='faq-bottom-text'>If you have any more questions. Please feel free to contact us.</p>
         </div>
     );
 };

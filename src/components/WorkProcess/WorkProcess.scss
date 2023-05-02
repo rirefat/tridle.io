@@ -1,0 +1,65 @@
+$bg-primary: #000;
+$bg-secondary: rgba(28, 29, 24, 1);
+$bg-purple: #9D4EDD;
+$font-family-primary: 'Satoshi', sans-serif;
+$text-primary: #EEEEEC;
+$text-secondary: rgba(248, 252, 234, 1);
+$text-highlighted: #BEE329;
+$border: #EEEEEC;
+
+.work-process {
+    background-color: $bg-primary;
+    padding: 6rem;
+
+    h3 {
+        font-family: $font-family-primary;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $text-highlighted;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300 !important;
+        font-size: 20px;
+        line-height: 30px;
+        color: $border;
+        margin-top: 1rem;
+    }
+
+    .work-steps-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+
+        .single-step{
+            border: 1.5px solid #3f3f3f;
+            border-radius: 12px;
+            padding: 1.6rem;
+            height: 18rem;
+            width: 18rem;
+
+            .icon{
+                color: $text-highlighted;
+                font-size: 2rem;
+            }
+            h4{
+                color: white;
+                font-size: 1.2rem;
+                margin-top: 1.6rem;
+            }
+
+            .step-description{
+                color: lightgray;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
