@@ -18,9 +18,22 @@ $bg-hover: rgba(255, 255, 255, 0.1);
 }
 
 body{
-  background-color: black;
-  max-width: 1440px;
-  margin: 0 auto;
+  /* background-color: black; */
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+}
+
+.section-wrapper-primary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.section-wrapper-secondary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1D18;
 }
 
 .scroll-to-top{

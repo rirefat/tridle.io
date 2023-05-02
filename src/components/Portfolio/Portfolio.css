@@ -1,6 +1,7 @@
 .portfolio-section {
   background-color: rgb(28, 29, 24);
   padding: 6rem;
+  max-width: 1440px;
 }
 .portfolio-section h3 {
   color: #BEE329;

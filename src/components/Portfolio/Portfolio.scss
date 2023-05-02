@@ -11,6 +11,7 @@ $bg-hover: rgba(255, 255, 255, 0.1);
 .portfolio-section {
     background-color: $bg-secondary;
     padding: 6rem;
+    max-width: 1440px;
 
     h3 {
         color: $text-highlighted;
