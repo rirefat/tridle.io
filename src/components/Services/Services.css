@@ -63,7 +63,7 @@
   height: 10px;
   border-radius: 50%;
   background-color: whitesmoke;
-  transition: transform 0.5s;
+  transition: transform 0.5s ease-in-out;
   visibility: hidden;
 }
 .services-section .services-container .ui-ux:hover::before {
@@ -106,7 +106,7 @@
   height: 10px;
   border-radius: 50%;
   background-color: #1C1D18;
-  transition: transform 0.5s;
+  transition: transform 0.5s ease-in-out;
   visibility: hidden;
 }
 .services-section .services-container .web-dev:hover::before {

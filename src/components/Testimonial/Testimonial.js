@@ -38,7 +38,7 @@ const Testimonial = () => {
 
     return (
         <div className='testimonial' id='testimonial'>
-            <h3>Our Client Says</h3>
+            <h3>Our Clients Love Us!</h3>
 
             <div className="testimonial-container">
                 <SwitchTransition>

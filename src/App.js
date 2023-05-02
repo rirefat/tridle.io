@@ -32,13 +32,13 @@ const App = () => {
       {/* <Home></Home> */}
       {/* <RouterProvider router={router} /> */}
       <Footer></Footer>
-
+{/* 
       <ScrollToTop 
         smooth
         color={"#BEE329"}
         top={30}
         component={<FiArrowUpCircle style={{ fontSize: "1.5rem" }}></FiArrowUpCircle>}
-      />
+      /> */}
     </div>
   );
 };
