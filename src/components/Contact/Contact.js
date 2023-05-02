@@ -51,7 +51,7 @@ const Contact = () => {
                 <div className="contact-info">
                     <div>
                         <p className="icon"><BsTelephone></BsTelephone></p>
-                        <a href="tel:+8801765215167">+880-1765-215167</a>
+                        <a href="tel:+8801858459795">+8801858459795</a>
                     </div>
                     <div>
                         <p className="icon"><HiOutlineMail></HiOutlineMail></p>

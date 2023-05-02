@@ -47,6 +47,10 @@ $border: #EEEEEC;
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
         font-weight: 600;
+
+        &:hover{
+            color: $text-highlighted;
+        }
     }
 
     .faq-desc {
@@ -57,10 +61,12 @@ $border: #EEEEEC;
 
     .active-accordion {
         display: block;
+        transition: all 0.5s ease-in;
     }
 
     .inactive-accordion {
         display: none;
+        transition: all 0.5s ease-in;
     }
 
     .faq-bottom-text{

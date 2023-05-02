@@ -30,6 +30,9 @@
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
+.faq-section .faq-title:hover, .faq-section .vertical:hover {
+  color: #BEE329;
+}
 .faq-section .faq-desc {
   color: #9D9D9D;
   font-size: 1rem;
@@ -37,9 +40,11 @@
 }
 .faq-section .active-accordion {
   display: block;
+  transition: all 0.5s ease-in;
 }
 .faq-section .inactive-accordion {
   display: none;
+  transition: all 0.5s ease-in;
 }
 .faq-section .faq-bottom-text {
   color: #9D9D9D;
