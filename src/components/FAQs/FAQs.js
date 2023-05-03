@@ -16,7 +16,7 @@ const faqData = [
         answer: 'Like anything, a website also needs care. Routine maintenance can be very vital for a smooth-going website. It can ensure the website’s security, traffic and so on. So, our team would love to help you with any support based on the situation.'
     },
     {
-        question: 'Will you provide maintenance service for my site? ',
+        question: 'Will you provide maintenance service for my site?',
         answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
     },
     {
@@ -64,7 +64,7 @@ const FAQs = () => {
                 {/* <div className="title">Title</div>
                 <div className="desc">Description</div> */}
             </div>
-            <p className='faq-bottom-text'>If you have any more questions. Please feel free to contact us.</p>
+            <p className='faq-bottom-text'>If you have any more questions. Please feel free to contact.</p>
         </div>
     );
 };

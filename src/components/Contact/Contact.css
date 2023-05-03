@@ -1,6 +1,8 @@
 .contact {
   background-color: #000;
   padding: 0 6rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .contact .contact-container {
   border-radius: 1rem;

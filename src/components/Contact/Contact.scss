@@ -12,6 +12,8 @@ $border-secondary: #424242;
 .contact {
     background-color: $bg-primary;
     padding: 0 6rem;
+    max-width: 1440px;
+    margin: 0 auto;
 
     .contact-container {
         border-radius: 1rem;
