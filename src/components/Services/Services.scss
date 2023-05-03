@@ -10,6 +10,8 @@ $border: #EEEEEC;
 .services-section {
     background-color: $bg-primary;
     padding: 6rem;
+    max-width: 1440px;
+    margin: 0 auto;
 
     h3 {
         font-family: $font-family-primary;
@@ -126,7 +128,7 @@ $border: #EEEEEC;
                 height: 10px;
                 border-radius: 50%;
                 background-color: #1C1D18;
-                transition: transform 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;
                 visibility: hidden;
             }
 

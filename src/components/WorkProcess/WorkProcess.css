@@ -1,6 +1,8 @@
 .work-process {
   background-color: #000;
   padding: 6rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .work-process h3 {
   font-family: "Satoshi", sans-serif;

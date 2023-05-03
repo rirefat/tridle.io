@@ -1,6 +1,8 @@
 .hero-section {
   padding: 6rem;
   background-color: #000;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-section h1 {
   color: #EEEEEC;

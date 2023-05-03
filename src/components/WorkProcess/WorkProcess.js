@@ -1,7 +1,7 @@
 import React from 'react';
 import './WorkProcess.css';
 
-import { BsFillChatRightFill, BsSearch } from 'react-icons/bs';
+import { BsChatLeftText, BsSearch } from 'react-icons/bs';
 import { SiAltiumdesigner } from 'react-icons/si';
 import { FaCode } from 'react-icons/fa';
 
@@ -9,7 +9,7 @@ const steps = [
     {
         title: 'Understanding User Needs',
         desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.',
-        icon: BsFillChatRightFill
+        icon: BsChatLeftText
     },
     {
         title: 'Background Research',
