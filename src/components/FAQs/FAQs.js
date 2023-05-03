@@ -5,7 +5,7 @@ import { BsChevronDown,BsChevronUp } from 'react-icons/bs';
 const faqData = [
     {
         question: 'How much do you charge?',
-        answer: "Website development is a customizable work. We design according to the requirement of the clients. Given the client's approach and the demand, our team will do the primary work. Then we can give you the basic idea of costing. So, now you know that it varies."
+        answer: "It depends on the project complexity and other factors. But we do take your budget into consideration before sending a quote."
     },
     {
         question: 'How long does it take to build a website?',
