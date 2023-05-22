@@ -31,11 +31,12 @@
   margin-top: 3rem;
 }
 .work-process .work-steps-container .single-step {
-  border: 1.5px solid #3f3f3f;
+  border: 1.5px solid #1C1D18;
   border-radius: 12px;
   padding: 1.6rem;
-  height: 18rem;
+  height: 22rem;
   width: 18rem;
+  background-color: #1C1D18;
 }
 .work-process .work-steps-container .single-step .icon {
   color: #BEE329;
