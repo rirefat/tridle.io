@@ -10,13 +10,13 @@ const Services = () => {
                 <div className="ui-ux single-service">
                     <span>
                         <h4>UI/UX Design</h4>
-                        <p>Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.</p>
+                        <p>Delightful and exceptional design is at the core of what we do. Our team specializes in data-driven approach to design and create user-centered interfaces that are both aesthetically pleasing and intuitive to use.</p>
                     </span>
                 </div>
                 <div className="web-dev single-service">
                     <span>
                         <h4>Website Development</h4>
-                        <p>Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.</p>
+                        <p>Our team offers comprehensive website development services using the latest No-Code-Tools like WordPress, Webflow, and Framer, as well as traditional methods such as React, HTML, CSS & JavaScript to fit your specific needs.</p>
                     </span>
                 </div>
             </div>
