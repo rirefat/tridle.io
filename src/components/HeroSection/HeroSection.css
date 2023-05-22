@@ -179,9 +179,6 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .hero-section p {
-    display: none;
-  }
   .hero-section .call-to-action {
     margin-top: 2.5rem;
   }
