@@ -1,26 +1,9 @@
 [
     {
     "id": 1,
-    "name": "Shaif Arfan",
-    "title": "CEO & Co-Founder",
-    "org": "WEB CIFAR",
-    "desc":
-      "Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing."
-  },  
-    {
-    "id": 2,
-    "name": "John Smith",
-    "title": "Co Founder",
-    "org": "WEB Decode",
-    "desc":
-      "Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work."
-  },  
-    {
-    "id": 3,
-    "name": "JK Donald",
-    "title": "Marketing Head",
-    "org": "WEB Crafting",
-    "desc":
-      "Really hard-working person. Deliver the work as promised. Planning to work more with this person."
+    "name": "Vic Devore",
+    "imgUrl": "https://i.ibb.co/pjmMCk2/vic-devore.png",
+    "title": "CEO, DEVOREDesign",
+    "desc":"Every time I need something fixed with my websites, they are my 'go to' place. They get everything done in a timely manner. Great communication! Thank you."
   }
 ]

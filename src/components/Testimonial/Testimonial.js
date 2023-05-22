@@ -3,6 +3,7 @@ import './Testimonial.css';
 import client1 from '../../images/clients/Avatar.png'
 import { BsFillStarFill } from 'react-icons/bs';
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
+import { AiFillStar } from 'react-icons/ai';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 
 const Testimonial = () => {
@@ -44,18 +45,25 @@ const Testimonial = () => {
                 <SwitchTransition>
                     <CSSTransition>
                         <div className="testimonial-info">
+                            <div className='ratings'>
+                                <span className='star'><AiFillStar></AiFillStar></span>
+                                <span className='star'><AiFillStar></AiFillStar></span>
+                                <span className='star'><AiFillStar></AiFillStar></span>
+                                <span className='star'><AiFillStar></AiFillStar></span>
+                                <span className='star'><AiFillStar></AiFillStar></span>
+                            </div>
                             <div className="comments">
                                 <p>{activeSlide?.desc}</p>
                             </div>
                             <div className='bottom-section'>
                                 <div className="author">
-                                    <img src={client1} alt="" />
+                                    <img src={activeSlide?.imgUrl} alt="" />
                                     <div>
                                         <h2 className="name">{activeSlide?.name}</h2>
                                         <p className='designation'>{activeSlide?.title}</p>
                                     </div>
                                 </div>
-                                <div className="pagination">
+                                {/* <div className="pagination">
                                     <div
                                         className="left prev"
                                         onClick={handlePrev}
@@ -70,7 +78,7 @@ const Testimonial = () => {
                                         tabIndex={0}
                                         onKeyDown={handleNext}
                                     ><BiRightArrowAlt></BiRightArrowAlt></div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </CSSTransition>
