@@ -6,7 +6,7 @@ const PortfolioCard = (props) => {
     return (
         <div className='portfolio-card'>
             <img src={project_preview} alt="Project Preview" />
-            <p className='card-meta-data'>{category} | {release_date}</p>
+            <p className='card-meta-data'>{category}</p>
             <h4>{project_title}</h4>
         </div>
     );

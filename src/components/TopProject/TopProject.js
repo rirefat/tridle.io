@@ -6,7 +6,7 @@ const TopProject = (props) => {
     return (
         <div className='top-project-card'>
             <img src={project_preview} alt="Project Preview" />
-            <p className='meta-data'>{category} | {release_date}</p>
+            <p className='meta-data'>{category}</p>
             <h4>{project_title}</h4>
             <p className="description">{description}</p>
         </div>

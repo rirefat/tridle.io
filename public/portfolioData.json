@@ -1,31 +1,26 @@
 [
     {
         "id":1,
-        "project_title":"Lisbon Fashion Brand Identity Design",
+        "project_title":"Loca Mapping Service Mobile App",
         "description":"Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022.",
-        "category":"Website Design",
-        "release_date":"10 June 2022",
-        "project_preview":"https://i.ibb.co/MkcbSfy/lisbon.png"
+        "category":"Mobile App UI",
+        "project_preview":"https://i.ibb.co/VLtXkrD/local-mapping-service.png"
     },
     {
         "id":2,
-        "project_title":"Jaago Shikkhok Landing Page",
-        "description":"Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022.",
-        "category":"Website Design",
-        "release_date":"10 June 2022",
-        "project_preview":"https://i.ibb.co/kHVfzcB/jaago.png"
+        "project_title":"Secure Password Generator",
+        "category":"Web App",
+        "project_preview":"https://i.ibb.co/HpYCXtt/password-generator.png"
     },
     {
         "id":3,
-        "project_title":"ABC Supply Chain Landing Page",
-        "description":"Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022.",
+        "project_title":"Digital Health Landing Page",
         "category":"Website Design",
-        "release_date":"10 June 2022",
-        "project_preview":"https://i.ibb.co/RN1Ty68/abc-supply-chain.png"
+        "project_preview":"https://i.ibb.co/7bLmQBf/digital-health-landing-page.png"
     },
     {
         "id":4,
-        "project_title":"Seline Orthodonics Responsive Landing Page ",
+        "project_title":"Seline Orthodonics Landing Page ",
         "description":"Good Creation Systems Ltd is a fully Digital solution providing company incorporated and registered under the corporate affair commission in July 20, 2022.",
         "category":"Website Design",
         "release_date":"10 June 2022",
