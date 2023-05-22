@@ -9,23 +9,23 @@ const faqData = [
     },
     {
         question: 'How long does it take to build a website?',
-        answer: 'For basic information websites with limited functionality, we often take one to three weeks starting from scratch till the end. But again, it can vary depending on the particular project.'
+        answer: 'It usually takes us 2 to 3 weeks from taking the project to website delivery for simple single page website. But for more complex sites it might take longer.'
     },
     {
         question: 'Which platform do you use to build website?',
-        answer: 'Like anything, a website also needs care. Routine maintenance can be very vital for a smooth-going website. It can ensure the website’s security, traffic and so on. So, our team would love to help you with any support based on the situation.'
+        answer: 'We utilize both traditional method to develop website by using HTML, CSS Javascipt and React and also by using no code tools such as Wordpress and Framer.'
     },
     {
-        question: 'Will you provide maintenance service for my site?',
-        answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
+        question: 'Will you provide maintenance service for my site? ',
+        answer: 'Yes, we provide maintenance service for your website for FREE for the first 3 month. After that, if you need help with anything, you can still reach out to us!'
     },
     {
         question: 'Once the website is live, can I update or edit it myself?',
-        answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
+        answer: 'Yes, you can update the contents of your website from a simple dashboard if you wish. But if you want to update the layout/design of your website, you will need to contact us.'
     },
     {
         question: 'Are domain and hosting included? If not, how much will they cost?',
-        answer: 'Of course, you can. With the basic knowledge of coding, you can do it. We also recommend that you update your site timely.'
+        answer: 'Domain and hosting charge is not included in our service. But if you wish we can suggest your the best domain/hosting service provider and you can even have us buy it on your behalf if you wish.'
     },
 ];
 
