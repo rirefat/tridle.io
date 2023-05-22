@@ -8,22 +8,22 @@ import { FaCode } from 'react-icons/fa';
 const steps = [
     {
         title: 'Understanding User Needs',
-        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.',
+        desc: "We conduct detailed discussions with clients to gain an in-depth understanding of the project's goals and requirements.",
         icon: BsChatLeftText
     },
     {
         title: 'Background Research',
-        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.',
+        desc: "We conduct thorough research about established works, market trends, and potential challenges to ensure project’s success.",
         icon: BsSearch
     },
     {
         title: 'Designing The Experience',
-        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.',
+        desc: "With deep understanding of user centered design and industry best practices, we design captivating interfaces that are easy to navigate and leaves a lasting impression on your visitors.",
         icon: SiAltiumdesigner
     },
     {
         title: 'Development & Testing',
-        desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.',
+        desc: "At this stage, we turn the approved design into a live website and rigorously test it to ensure optimal performance before handing it over to our customer.",
         icon: FaCode
     },
 ];
