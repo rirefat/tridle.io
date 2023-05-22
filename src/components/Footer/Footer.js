@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="copyright-text">© Tridle | All rights reserved.</div>
                 <div className="social-links">
                     <ul>
-                        <li><Link target="_blank" to={'#'}><BsTwitter></BsTwitter></Link></li>
+                        <li><Link target="_blank" to={'https://twitter.com/tridle_io'}><BsTwitter></BsTwitter></Link></li>
                         <li><Link target="_blank" to={'http://www.linkedin.com/company/tridle-io'}><BsLinkedin></BsLinkedin></Link></li>
                         <li><Link target="_blank" to={"https://www.facebook.com/tridle.io"}><BsFacebook></BsFacebook></Link></li>
                         <li><Link target="_blank" to={"http://instagram.com/tridle.io"}><BsInstagram></BsInstagram></Link></li>
